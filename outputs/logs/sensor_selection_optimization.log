@@ -1,0 +1,48 @@
+Fixed 8-sensor set: ['s1-eth1' 's1-eth2' 's1-eth3' 's1-eth4' 's2-eth1' 's2-eth2' 's2-eth3'
+ 's3-eth5']
+Fixed baseline val RMSE: 202.5910
+
+Top 10 sensors by MI-like score:
+  1. s2-eth2 score=6.7177
+  2. s1-eth2 score=1.0472
+  3. s1-eth1 score=0.0000
+  4. s5-eth3 score=0.0000
+  5. s5-eth2 score=0.0000
+  6. s5-eth1 score=0.0000
+  7. s4-eth5 score=0.0000
+  8. s4-eth4 score=0.0000
+  9. s4-eth3 score=0.0000
+  10. s4-eth2 score=0.0000
+
+=== Results table ===
+method,k,val_RMSE,delta_vs_fixed,sensors
+mi,4,199.7611,-2.8298,s2-eth2;s1-eth2;s1-eth1;s5-eth3
+mi,6,199.8345,-2.7564,s2-eth2;s1-eth2;s1-eth1;s5-eth3;s5-eth2;s5-eth1
+mi,8,200.5816,-2.0094,s2-eth2;s1-eth2;s1-eth1;s5-eth3;s5-eth2;s5-eth1;s4-eth5;s4-eth4
+
+Running greedy selection for k=4
+[greedy] |S|=1 best_node=s2-eth2 val_RMSE=199.6858
+[greedy] |S|=2 best_node=s1-eth4 val_RMSE=199.6275
+[greedy] |S|=3 best_node=s4-eth5 val_RMSE=199.6274
+[greedy] |S|=4 best_node=s4-eth3 val_RMSE=199.6276
+greedy,4,199.6276,-2.9634,s2-eth2;s1-eth4;s4-eth5;s4-eth3
+
+Running greedy selection for k=6
+[greedy] |S|=1 best_node=s2-eth2 val_RMSE=199.6858
+[greedy] |S|=2 best_node=s1-eth4 val_RMSE=199.6275
+[greedy] |S|=3 best_node=s4-eth5 val_RMSE=199.6274
+[greedy] |S|=4 best_node=s4-eth3 val_RMSE=199.6276
+[greedy] |S|=5 best_node=s4-eth2 val_RMSE=199.6367
+[greedy] |S|=6 best_node=s3-eth5 val_RMSE=199.6348
+greedy,6,199.6348,-2.9561,s2-eth2;s1-eth4;s4-eth5;s4-eth3;s4-eth2;s3-eth5
+
+Running greedy selection for k=8
+[greedy] |S|=1 best_node=s2-eth2 val_RMSE=199.6858
+[greedy] |S|=2 best_node=s1-eth4 val_RMSE=199.6275
+[greedy] |S|=3 best_node=s4-eth5 val_RMSE=199.6274
+[greedy] |S|=4 best_node=s4-eth3 val_RMSE=199.6276
+[greedy] |S|=5 best_node=s4-eth2 val_RMSE=199.6367
+[greedy] |S|=6 best_node=s3-eth5 val_RMSE=199.6348
+[greedy] |S|=7 best_node=s2-eth5 val_RMSE=199.6270
+[greedy] |S|=8 best_node=s2-eth3 val_RMSE=199.6345
+greedy,8,199.6345,-2.9565,s2-eth2;s1-eth4;s4-eth5;s4-eth3;s4-eth2;s3-eth5;s2-eth5;s2-eth3

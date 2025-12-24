@@ -1,0 +1,59 @@
+\section{Stability and ensembles}
+\label{sec:stability-ensembles}
+
+\subsection{Motivation}
+Neural training is stochastic and can yield different results across random seeds even under identical settings. This section quantifies the variability of the nowcasting model across seeds and evaluates whether simple prediction ensembling can reduce variance.
+
+\subsection{Protocol}
+We fix the configuration to GraphSAGE with $k=10$ sensors and train 10 independent models with different random seeds. Stability is reported as mean $\pm$ standard deviation of test RMSE across the 10 models. To evaluate ensembles, we average predictions of $k$ independently trained models. For each ensemble size $k \in \{1,\dots,10\}$ we sample random subsets of checkpoints and report mean $\pm$ std.
+
+\subsection{Results}
+\begin{table}[t]
+\centering
+\small
+\caption{Stability of nowcasting under a fixed configuration ($k=10$). Values are mean $\pm$ std over 10 training seeds. Lower is better.}
+\label{tab:stability-10seed}
+\begin{tabular}{lcc}
+\toprule
+Metric & Mean & Std \\
+\midrule
+Test micro RMSE & 245.335 & 11.518 \\
+Test macro RMSE & 138.040 & 9.545 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\caption{Ensemble-size curve for nowcasting. Each row reports mean $\pm$ std over random subsets of models of size $k$.}
+\label{tab:ensemble-curve}
+\begin{tabular}{rcc}
+\toprule
+Ensemble size $k$ & Test micro RMSE (mean $\pm$ std) & Test macro RMSE (mean $\pm$ std) \\
+\midrule
+1  & 239.262 $\pm$ 12.829 & 134.813 $\pm$ 8.082 \\
+2  & 247.090 $\pm$ 6.866  & 139.351 $\pm$ 6.332 \\
+3  & 244.869 $\pm$ 5.351  & 137.364 $\pm$ 4.830 \\
+4  & 243.291 $\pm$ 3.772  & 136.543 $\pm$ 2.803 \\
+5  & 243.964 $\pm$ 4.199  & 137.221 $\pm$ 3.230 \\
+6  & 244.310 $\pm$ 3.055  & 137.061 $\pm$ 2.455 \\
+7  & 245.142 $\pm$ 1.980  & 137.811 $\pm$ 1.915 \\
+8  & 244.679 $\pm$ 1.901  & 137.505 $\pm$ 1.444 \\
+9  & 244.815 $\pm$ 1.448  & 137.743 $\pm$ 1.225 \\
+10 & 244.994 $\pm$ 0.000  & 137.868 $\pm$ 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.48\textwidth]{outputs/figures/ensemble_curve_micro_seeds.pdf}
+\hfill
+\includegraphics[width=0.48\textwidth]{outputs/figures/ensemble_curve_macro_seeds.pdf}
+\caption{Ensemble-size curves for nowcasting. Error bars show variability across random subsets of models for each ensemble size.}
+\label{fig:ensemble-curves}
+\end{figure}
+
+\subsection{Takeaway}
+Ensembling sharply reduces variance as the ensemble size grows, while the mean RMSE remains broadly similar. In practice, a small ensemble ($k\approx 4$--$6$) provides a strong robustness gain with limited additional computational cost.

@@ -1,0 +1,70 @@
+{
+  "selected": [
+    "port5",
+    "port6",
+    "port23",
+    "port18",
+    "port1",
+    "port16",
+    "port21",
+    "port12"
+  ],
+  "curve": [
+    {
+      "k": 1,
+      "rmse_micro": 42.36404037475586,
+      "rmse_macro": 8.647534462365002,
+      "sensor_added_idx": 5,
+      "sensor_added_name": "port5"
+    },
+    {
+      "k": 2,
+      "rmse_micro": 39.44318771362305,
+      "rmse_macro": 8.051315829049903,
+      "sensor_added_idx": 6,
+      "sensor_added_name": "port6"
+    },
+    {
+      "k": 3,
+      "rmse_micro": 39.43564987182617,
+      "rmse_macro": 8.049774455811834,
+      "sensor_added_idx": 23,
+      "sensor_added_name": "port23"
+    },
+    {
+      "k": 4,
+      "rmse_micro": 39.43328094482422,
+      "rmse_macro": 8.049293840639924,
+      "sensor_added_idx": 18,
+      "sensor_added_name": "port18"
+    },
+    {
+      "k": 5,
+      "rmse_micro": 39.43222427368164,
+      "rmse_macro": 8.049075508886139,
+      "sensor_added_idx": 1,
+      "sensor_added_name": "port1"
+    },
+    {
+      "k": 6,
+      "rmse_micro": 39.43161392211914,
+      "rmse_macro": 8.048951404504502,
+      "sensor_added_idx": 16,
+      "sensor_added_name": "port16"
+    },
+    {
+      "k": 7,
+      "rmse_micro": 39.43122863769531,
+      "rmse_macro": 8.048871636525291,
+      "sensor_added_idx": 21,
+      "sensor_added_name": "port21"
+    },
+    {
+      "k": 8,
+      "rmse_micro": 39.43098449707031,
+      "rmse_macro": 8.048821302693492,
+      "sensor_added_idx": 12,
+      "sensor_added_name": "port12"
+    }
+  ]
+}

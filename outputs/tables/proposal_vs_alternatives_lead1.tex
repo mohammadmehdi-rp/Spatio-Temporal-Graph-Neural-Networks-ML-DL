@@ -1,0 +1,22 @@
+% NOTE: This table uses \multirow; include in your preamble:
+% \usepackage{multirow}
+% Also requires: \usepackage{booktabs} and \usepackage{float} (for [H]).
+
+\begin{table}[H]
+\centering
+\small
+\caption{Proposal vs. encoder alternative (Lead-1 forecasting). Lower RMSE is better.}
+\label{tab:proposal-vs-alternatives-lead1}
+\begin{tabular}{llc}
+\toprule
+Group & Method & Lead-1 micro RMSE \\
+\midrule
+\multirow{2}{*}{Proposed} 
+& Best single run & 153.305 \\
+& Mean$\pm$Std (3 seeds) & 172.222 $\pm$ 13.390 \\
+\midrule
+\multirow{1}{*}{Encoder variant}
+& RouteNet-lite (same setup) & 199.387 $\pm$ 126.190 \\
+\bottomrule
+\end{tabular}
+\end{table}

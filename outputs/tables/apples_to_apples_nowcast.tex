@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Apples-to-apples classical baselines for nowcasting (same splits, raw packet scale).}
+\label{tab:apples-nowcast}
+\begin{tabular}{lrrrr}
+\toprule
+Method & Micro RMSE & $\pm$ & Macro RMSE & $\pm$ \\
+\midrule
+Naive persistence (y[t-1]) & 38.091 & 0.000 & 7.775 & 0.000 \\
+Moving average (w=5) & 63.566 & 0.000 & 12.975 & 0.000 \\
+Ridge (val-tuned, alpha=0.1) & 0.002 & 0.000 & 0.002 & 0.000 \\
+Random Forest (n=200) & 7.662 & 0.000 & 1.564 & 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

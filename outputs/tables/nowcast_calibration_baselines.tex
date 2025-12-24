@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Nowcast calibration and simple baselines on the test split (busy threshold 50 pkts).}
+\label{tab:nowcast_calib_baselines}
+\begin{tabular}{lrrrrr}
+\toprule
+method & global_RMSE & idle_RMSE & busy_RMSE & idle_FP_rate & idle_mean_pred \\
+\midrule
+Zero & 152.282 & 0.000 & 986.899 & 0.000 & 0.0 \\
+Copy sensor_backlog & 0.000 & 0.000 & 0.000 & 0.000 & 0.0 \\
+AR1_next feature & 3.144 & 0.000 & 20.377 & 0.000 & 0.0 \\
+GNN (raw) & 214.263 & 216.786 & 36.402 & 0.266 & 98.0 \\
+GNN (scale) & 125.581 & 73.400 & 664.434 & 0.116 & 33.2 \\
+GNN (soft+scale) & 52.270 & 47.546 & 148.539 & 0.077 & 13.6 \\
+\bottomrule
+\end{tabular}
+\end{table}

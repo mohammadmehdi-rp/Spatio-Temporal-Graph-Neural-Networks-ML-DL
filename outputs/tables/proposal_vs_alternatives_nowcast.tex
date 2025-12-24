@@ -1,0 +1,30 @@
+% NOTE: This table uses \multirow; include in your preamble:
+% \usepackage{multirow}
+% Also requires: \usepackage{booktabs} and \usepackage{float} (for [H]).
+
+\begin{table}[H]
+\centering
+\small
+\caption{Proposal vs. alternative design choices (nowcasting). Lower RMSE is better. ``Best'' denotes the best single run; ``Mean$\pm$Std'' reports performance across multiple seeds/runs.}
+\label{tab:proposal-vs-alternatives-nowcast}
+\begin{tabular}{llcc}
+\toprule
+Group & Method & Micro RMSE & Macro RMSE \\
+\midrule
+\multirow{2}{*}{Proposed} 
+& Best single run & 214.263 & 113.391 \\
+& Mean$\pm$Std (3 seeds) & 225.075 $\pm$ 8.846 & 120.220 $\pm$ 6.416 \\
+\midrule
+\multirow{3}{*}{Temporal ablations}
+& No lags & 238.946 $\pm$ 20.871 & 128.476 $\pm$ 19.024 \\
+& Lag1 only & 228.038 $\pm$ 4.447 & 123.279 $\pm$ 5.908 \\
+& Lag1+Lag2 & 241.846 $\pm$ 2.489 & 129.735 $\pm$ 3.635 \\
+\midrule
+\multirow{2}{*}{Sensor baseline}
+& Random sensors (k=10) & 235.761 $\pm$ 7.278 & 125.136 $\pm$ 6.786 \\
+\midrule
+\multirow{1}{*}{Encoder variant}
+& RouteNet-lite (same setup) & 348.617 $\pm$ 28.211 & 198.618 $\pm$ 14.287 \\
+\bottomrule
+\end{tabular}
+\end{table}

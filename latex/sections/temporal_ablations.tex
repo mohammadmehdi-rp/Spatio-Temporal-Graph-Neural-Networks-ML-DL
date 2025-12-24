@@ -1,0 +1,40 @@
+\section{Temporal ablations}
+\label{sec:temporal-ablations}
+
+\subsection{What is a lag feature?}
+We denote by \emph{lag-$k$} the inclusion of the target-related sensor features from $k$ time steps in the past (e.g., backlog at $t-1$ for lag-1). In practice, this corresponds to concatenating historical channels such as $\texttt{sensor\_backlog\_lag1}$, $\texttt{sensor\_backlog\_lag2}$, and $\texttt{sensor\_backlog\_lag3}$ to the node feature vector at time $t$.
+
+\subsection{Protocol}
+We evaluate four temporal configurations using the same sensor set ($k=10$), model architecture (GraphSAGE), and training recipe. Each setting is trained with 3 random seeds and evaluated on the same test split.
+
+\subsection{Results}
+Table~\ref{tab:temporal-ablations} shows that temporal context is beneficial. Using the full lag set (lag-1 to lag-3) yields the best accuracy. Removing lags entirely results in a large degradation and increased variance. Interestingly, using only lag-1 performs reasonably well, whereas lag-1+lag-2 performs worse than lag-1 only in this dataset, suggesting that naively adding additional history can introduce noise or mismatch with the model capacity.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Temporal ablations for nowcasting ($k=10$). Values are mean $\pm$ std over 3 seeds. Lower RMSE is better.}
+\label{tab:temporal-ablations}
+\begin{tabular}{lcc}
+\toprule
+Setting & Test micro RMSE & Test macro RMSE \\
+\midrule
+No lags & 238.946 $\pm$ 20.871 & 128.476 $\pm$ 19.024 \\
+Lag-1 only & 228.038 $\pm$ 4.447 & 123.279 $\pm$ 5.908 \\
+Lag-1 + Lag-2 & 241.846 $\pm$ 2.489 & 129.735 $\pm$ 3.635 \\
+Full (Lag-1 to Lag-3) & \textbf{225.075} $\pm$ 8.846 & \textbf{120.220} $\pm$ 6.416 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.48\textwidth]{outputs/figures/temporal_ablation_micro_seeds.pdf}
+\hfill
+\includegraphics[width=0.48\textwidth]{outputs/figures/temporal_ablation_macro_seeds.pdf}
+\caption{Temporal ablation results with 3 seeds (error bars show standard deviation).}
+\label{fig:temporal-ablations}
+\end{figure}
+
+\subsection{Takeaway}
+Temporal features are a key component of the proposed pipeline. The best performance is obtained when combining graph message passing with a short history window (lag-1 to lag-3), which improves accuracy and stabilizes training compared to using no temporal context.

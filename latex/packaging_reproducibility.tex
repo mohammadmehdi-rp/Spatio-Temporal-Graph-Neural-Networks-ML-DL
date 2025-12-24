@@ -1,0 +1,30 @@
+% Packaging & Reproducibility (thesis-ready section)
+% Include in thesis with: \input{latex/packaging_reproducibility}
+
+\section{Packaging and Reproducibility}
+\label{sec:packaging}
+
+All experiments are packaged to enable end-to-end reproducibility of training, evaluation, and plot/table generation. The release contains the full source code, the NPZ datasets used for training/testing, and precomputed artifacts (figures, \LaTeX{} tables, and CSV summaries) for fast inspection.
+
+\subsection{Environment control}
+The package includes both \texttt{requirements.txt} (pip) and \texttt{environment.yml} (conda) to recreate the software environment. For maximum reproducibility, users should create the environment first and then execute the provided scripts.
+
+\subsection{Determinism and seeds}
+Training scripts accept a \texttt{--seed} argument and support deterministic execution where applicable. This controls Python, NumPy, and PyTorch random generators, enabling stable comparisons across runs.
+
+\subsection{Reproduction modes}
+Two reproduction modes are provided:
+\begin{itemize}
+  \item \textbf{Fast mode} (\texttt{scripts/reproduce\_all\_fast.sh}): regenerates plots and \LaTeX{} tables from the included summaries and cached artifacts.
+  \item \textbf{Full mode} (\texttt{scripts/reproduce\_all\_full.sh}): retrains models and reproduces all results from scratch, saving logs, checkpoints, and regenerated figures/tables.
+\end{itemize}
+
+\subsection{Outputs}
+All generated artifacts are stored under \texttt{outputs/}:
+\begin{itemize}
+  \item \texttt{outputs/logs/}: training and evaluation logs,
+  \item \texttt{outputs/models/}: model checkpoints,
+  \item \texttt{outputs/summaries/}: CSV/JSON summaries used to build final tables and plots,
+  \item \texttt{outputs/tables/}: \LaTeX{}-ready tables,
+  \item \texttt{outputs/figures/}: plots in PDF and PNG formats.
+\end{itemize}

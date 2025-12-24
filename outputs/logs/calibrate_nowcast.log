@@ -1,0 +1,13 @@
+=== Nowcast calibration (TEST) ===
+auto_scale_used_y_cap=False  (y_cap=1000.0)
+busy_threshold=50.0 pkts
+
+[RAW] global_RMSE=214.263 | idle_RMSE=216.786 | busy_RMSE=36.402 | idle_FP_rate=0.266 | idle_mean_pred=97.963
+[SCALE] global_RMSE=125.581 | idle_RMSE=73.400 | busy_RMSE=664.434 | idle_FP_rate=0.116 | idle_mean_pred=33.168
+[SOFT+SCALE] global_RMSE=52.270 | idle_RMSE=47.546 | busy_RMSE=148.539 | idle_FP_rate=0.077 | idle_mean_pred=13.580
+
+Calibration parameters:
+  SCALE: a=0.338581
+  SOFT+SCALE: tau=712.809021  s=73.331406  a=3.517288  (val_rmse=68.999)
+
+[OK] Saved: data/npz/calib_nowcast_10.npz

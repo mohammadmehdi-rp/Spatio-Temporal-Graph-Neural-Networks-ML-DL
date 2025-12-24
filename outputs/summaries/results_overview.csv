@@ -1,0 +1,46 @@
+label,task,metric,value,std,run_type,split
+"Proposed (GraphSAGE, k=10, full lags)",nowcast,micro_RMSE,225.075,8.846,mean±std (3 seeds),
+"Proposed (GraphSAGE, k=10, full lags)",nowcast,macro_RMSE,120.22,6.416,mean±std (3 seeds),
+Proposed (best single run),nowcast,micro_RMSE,214.263,,single,from nowcast_10_full
+Proposed (best single run),nowcast,macro_RMSE,113.391,,single,from nowcast_10_full
+"Proposed (GraphSAGE, k=10, full lags)",lead1,micro_RMSE,172.222,13.39,mean±std (3 seeds),
+Proposed (best single run),lead1,micro_RMSE,153.305,,single,from lead1_10
+No lags,nowcast,micro_RMSE,238.946,20.871,mean±std (3 seeds),temporal ablation
+No lags,nowcast,macro_RMSE,128.476,19.024,mean±std (3 seeds),temporal ablation
+Lag1 only,nowcast,micro_RMSE,228.038,4.447,mean±std (3 seeds),temporal ablation
+Lag1 only,nowcast,macro_RMSE,123.279,5.908,mean±std (3 seeds),temporal ablation
+Lag1+Lag2,nowcast,micro_RMSE,241.846,2.489,mean±std (3 seeds),temporal ablation
+Lag1+Lag2,nowcast,macro_RMSE,129.735,3.635,mean±std (3 seeds),temporal ablation
+RouteNet-lite (same setup),nowcast,micro_RMSE,348.617,28.211,mean±std (3 seeds),encoder variant
+RouteNet-lite (same setup),nowcast,macro_RMSE,198.618,14.287,mean±std (3 seeds),encoder variant
+RouteNet-lite (same setup),lead1,micro_RMSE,199.387,126.19,mean±std (3 seeds),encoder variant
+Random sensors (k=10),nowcast,micro_RMSE,235.761,7.278,mean±std (5 runs),random subset baseline
+Random sensors (k=10),nowcast,macro_RMSE,125.136,6.786,mean±std (5 runs),random subset baseline
+Calibration RAW (k=10),nowcast,global_RMSE,214.263,,single,test
+Calibration RAW (k=10),nowcast,idle_FP_rate,0.266,,single,idle threshold 50 pkts
+Calibration SOFT+SCALE (k=10),nowcast,global_RMSE,52.27,,single,test
+Calibration SOFT+SCALE (k=10),nowcast,idle_FP_rate,0.077,,single,idle threshold 50 pkts
+"Stability (10 seeds, GraphSAGE k=10)",nowcast,micro_RMSE,245.335,11.518,mean±std (10 seeds),stability
+"Stability (10 seeds, GraphSAGE k=10)",nowcast,macro_RMSE,138.04,9.545,mean±std (10 seeds),stability
+Cross-trace A→B,nowcast,micro_RMSE,207.889,115.879,mean±std (3 seeds),cross-trace
+Cross-trace A→B,nowcast,macro_RMSE,92.883,49.687,mean±std (3 seeds),cross-trace
+Cross-trace B→A,nowcast,micro_RMSE,62.317,5.939,mean±std (3 seeds),cross-trace
+Cross-trace B→A,nowcast,macro_RMSE,57.845,7.771,mean±std (3 seeds),cross-trace
+Naive persistence (y[t-1]) (no_next),nowcast,micro_RMSE,38.09149907246106,,single,test
+Naive persistence (y[t-1]) (no_next),nowcast,macro_RMSE,7.775394688769025,,single,test
+Moving average (w=5) (no_next),nowcast,micro_RMSE,63.56630584060387,,single,test
+Moving average (w=5) (no_next),nowcast,macro_RMSE,12.9754178452648,,single,test
+"Ridge (val-tuned, alpha=0.1) (no_next)",nowcast,micro_RMSE,0.0020914048068399,,single,test
+"Ridge (val-tuned, alpha=0.1) (no_next)",nowcast,macro_RMSE,0.0019387022514679,,single,test
+Random Forest (n=200) (no_next),nowcast,micro_RMSE,7.662070510245141,,single,test
+Random Forest (n=200) (no_next),nowcast,macro_RMSE,1.5640135936105788,,single,test
+Naive lead-1 (y[t]) (no_next),lead1,micro_RMSE,39.03174455918328,,single,test
+Naive lead-1 (y[t]) (no_next),lead1,macro_RMSE,7.967321495054379,,single,test
+"Ridge lead-1 (val-tuned, alpha=0.1) (no_next)",lead1,micro_RMSE,38.30798675476116,,single,test
+"Ridge lead-1 (val-tuned, alpha=0.1) (no_next)",lead1,macro_RMSE,8.039009791747265,,single,test
+"AR(p) ridge (p=5, alpha=0.1) (no_next)",lead1,micro_RMSE,38.86087171110349,,single,test
+"AR(p) ridge (p=5, alpha=0.1) (no_next)",lead1,macro_RMSE,8.043858107601702,,single,test
+"ARIMA(p,1,0) ridge (p=5, alpha=100.0) (no_next)",lead1,micro_RMSE,40.06504212966978,,single,test
+"ARIMA(p,1,0) ridge (p=5, alpha=100.0) (no_next)",lead1,macro_RMSE,8.22999516528652,,single,test
+Kalman RW baseline (no_next),lead1,micro_RMSE,71.40672811561942,,single,test
+Kalman RW baseline (no_next),lead1,macro_RMSE,14.57583734040974,,single,test

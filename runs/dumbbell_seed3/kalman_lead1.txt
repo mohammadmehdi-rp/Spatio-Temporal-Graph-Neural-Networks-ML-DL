@@ -1,0 +1,3 @@
+Test frames evaluated: 414 | Ports: 10
+KF lead-1 (Q=50.0, R=200.0) → all-frames  micro 37.610 | macro 11.957
+KF lead-1 (Q=50.0, R=200.0) → busy-only   micro 79.306 | macro 19.181
