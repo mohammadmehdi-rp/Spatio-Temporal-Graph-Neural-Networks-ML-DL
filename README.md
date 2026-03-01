@@ -6,6 +6,8 @@
 
 This repository contains the complete reproducible research package for **Spatio-Temporal Graph Neural Networks for Network Traffic Estimation and Prediction**, developed as part of a Master's thesis in Information Engineering at the University of Trento (2026).
 
+**Supervisor:** Professor Fabrizio Granelli
+
 ## 📖 Overview
 
 This work presents a novel approach to network traffic prediction using **Graph Neural Networks (GNNs)** on realistic network topologies emulated with **ComNetsEmu/Containernet**. The system predicts multiple network performance metrics including queue backlog, throughput, link utilization, and end-to-end latency using spatio-temporal features extracted from network telemetry.
@@ -250,6 +252,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
+- Professor Fabrizio Granelli for his invaluable supervision and guidance
 - ComNetsEmu team for the network emulation framework
 - PyTorch Geometric developers
 - University of Trento, Department of Information Engineering
