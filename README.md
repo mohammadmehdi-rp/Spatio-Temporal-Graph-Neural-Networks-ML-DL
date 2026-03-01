@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 
-This repository contains the complete reproducible research package for **Spatio-Temporal Graph Neural Networks for Network Traffic Estimation and Prediction**, developed as part of a Master's thesis in Information Engineering at the University of Padova (2026).
+This repository contains the complete reproducible research package for **Spatio-Temporal Graph Neural Networks for Network Traffic Estimation and Prediction**, developed as part of a Master's thesis in Information Engineering at the University of Trento (2026).
 
 ## 📖 Overview
 
@@ -101,12 +101,14 @@ cd Spatio-Temporal-Graph-Neural-Networks-ML-DL
 #### 2. Set up Python environment
 
 **Option A: Conda (Recommended)**
+
 ```bash
 conda env create -f environment.yml
 conda activate thesis-repro
 ```
 
 **Option B: Pip**
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -130,6 +132,7 @@ bash scripts/reproduce_all_fast.sh
 ```
 
 This will generate:
+
 - Figures in `outputs/figures/`
 - LaTeX tables in `outputs/tables/`
 - Summary CSVs in `outputs/summaries/`
@@ -147,16 +150,19 @@ bash scripts/reproduce_all_full.sh
 ### Individual Experiments
 
 **Dumbbell topology experiments:**
+
 ```bash
 bash scripts/run_dumbbell_full.sh
 ```
 
 **NSFNET topology experiments:**
+
 ```bash
 bash scripts/run_nsfnet_multitarget.sh
 ```
 
 **Multi-target estimation:**
+
 ```bash
 bash scripts/reproduce_multi_target_estimation.sh
 ```
@@ -166,6 +172,7 @@ bash scripts/reproduce_multi_target_estimation.sh
 ### 1. Capture Network Data
 
 **Dumbbell topology:**
+
 ```bash
 sudo -E python3 src/run_dumbbell_capture.py \
     --outdir runs/my_experiment \
@@ -175,6 +182,7 @@ sudo -E python3 src/run_dumbbell_capture.py \
 ```
 
 **NSFNET topology:**
+
 ```bash
 sudo -E python3 src/run_nsfnet_capture_plus.py \
     --outdir runs/my_nsfnet \
@@ -229,7 +237,7 @@ If you use this code in your research, please cite:
 @mastersthesis{rajabpourshirazy2026spatiotemporal,
   author = {Rajabpourshirazy, Mohammad Mehdi},
   title = {Spatio-Temporal Graph Neural Networks for Network Traffic Estimation and Prediction},
-  school = {University of Padova},
+  school = {University of Trento},
   year = {2026},
   type = {Master's Thesis},
   department = {Information Engineering}
@@ -244,31 +252,36 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - ComNetsEmu team for the network emulation framework
 - PyTorch Geometric developers
-- University of Padova, Department of Information Engineering
+- University of Trento, Department of Information Engineering
 
 ## 📧 Contact
 
 **Mohammad Mehdi Rajabpourshirazy**
+
 - GitHub: [@mohammadmehdi-rp](https://github.com/mohammadmehdi-rp)
-- University of Padova, Information Engineering
+- University of Trento, Information Engineering
 
 ## 🐛 Troubleshooting
 
 ### Common Issues
 
 **1. "Mininet/ComNetsEmu must run as root"**
+
 ```bash
 sudo -E python3 src/run_dumbbell_capture.py ...
 ```
+
 The `-E` flag preserves your environment variables.
 
 **2. Docker image not found**
+
 ```bash
 bash scripts/build_ndt_host_image.sh
 ```
 
 **3. CUDA out of memory**
 Reduce batch size in training scripts or use CPU:
+
 ```bash
 python3 src/train_nowcast_sparse.py --device cpu ...
 ```
@@ -278,6 +291,7 @@ Always run scripts from the repository root directory.
 
 **5. Large files warning on GitHub**
 Some output CSVs exceed 50 MB. Consider using Git LFS for frequent modifications:
+
 ```bash
 git lfs install
 git lfs track "*.csv"
