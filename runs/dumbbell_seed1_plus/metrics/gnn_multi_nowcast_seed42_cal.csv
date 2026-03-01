@@ -1,0 +1,5 @@
+mode,target,rmse_global,rmse_nonSensor,queue_global_rmse,queue_idle_rmse,queue_busy_rmse,queue_idle_fp,queue_idle_mean
+nowcast,queue_pkts,2.202485402640412,0.023769134427076417,2.202485402640412,0.8242420310321675,8.309435802763826,0.0,0.020265309140086174
+nowcast,throughput_Mbps,1.670839903899589,2.139841011843617,,,,,
+nowcast,utilization,0.0237427801136642,1.8166597440799867e-05,,,,,
+nowcast,rtt_ms,153.04401971204337,88.37978654959132,,,,,

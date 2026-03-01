@@ -1,0 +1,5 @@
+mode,target,rmse_global,rmse_nonSensor,queue_global_rmse,queue_idle_rmse,queue_busy_rmse,queue_idle_fp,queue_idle_mean,thr_global_rmse,thr_idle_rmse,thr_busy_rmse,thr_idle_fp,thr_idle_mean,delay_global_rmse,delay_idle_rmse,delay_busy_rmse,delay_idle_fp,delay_idle_mean
+nowcast,queue_pkts,14.171987076964086,0.20753008987361993,14.171987076964086,14.627491107186307,3.823232784681461,0.06767955801104972,5.664094924926758,,,,,,,,,,
+nowcast,throughput_Mbps,0.12094088910399772,0.0019270858198887604,,,,,,0.12094088910399772,0.00250134946002664,0.23147349751795784,0.0,0.0016679672989994287,,,,,
+nowcast,utilization,0.021278541228845017,0.00018575022008216253,,,,,,,,,,,,,,,
+nowcast,qdelay_ms,59.90608037082424,68.66400386285974,,,,,,,,,,,59.90608037082424,67.73283306489672,58.51060281052524,1.0,17.20207977294922

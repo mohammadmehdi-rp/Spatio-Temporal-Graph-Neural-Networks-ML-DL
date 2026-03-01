@@ -1,0 +1,23 @@
+% Requires: \usepackage{booktabs} and \usepackage{float}
+
+% Classical ML baselines table (template)
+% Fill in the missing values after running the baseline scripts.
+\begin{table}[H]
+\centering
+\small
+\caption{Classical baselines template (fill after running baseline evaluation). Lower RMSE is better.}
+\label{tab:ml-baselines-template}
+\begin{tabular}{lccc}
+\toprule
+Baseline & Nowcast micro RMSE & Nowcast macro RMSE & Lead-1 micro RMSE \\
+\midrule
+Naive persistence ($\hat{y}_{t+1}=y_t$) & -- & -- & -- \\
+Moving average (window=5) & -- & -- & -- \\
+Ridge regression & -- & -- & -- \\
+Random Forest & -- & -- & -- \\
+AR(p) baseline & -- & -- & -- \\
+ARIMA baseline & -- & -- & -- \\
+Kalman filter & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

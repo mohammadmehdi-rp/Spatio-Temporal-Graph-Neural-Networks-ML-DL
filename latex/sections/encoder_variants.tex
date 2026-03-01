@@ -1,0 +1,38 @@
+\section{Encoder variants: GraphSAGE vs. RouteNet-lite}
+\label{sec:encoder-variants}
+
+\subsection{Protocol}
+We compare two GNN encoders under the same sensor budget ($k=10$) and training recipe: GraphSAGE and RouteNet-lite.
+For each encoder, we train 3 seeds and report mean $\pm$ std test RMSE.
+We evaluate both nowcasting and lead-1 forecasting.
+
+\subsection{Results}
+Table~\ref{tab:encoder-variants} reports the accuracy comparison.
+GraphSAGE substantially outperforms RouteNet-lite on this dataset for both tasks.
+In particular, RouteNet-lite exhibits much larger errors and higher variance, indicating training instability and/or a mismatch between its inductive bias and the feature design used in our pipeline.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Encoder comparison at $k=10$ sensors. Values are mean $\pm$ std over 3 seeds. Lower RMSE is better.}
+\label{tab:encoder-variants}
+\begin{tabular}{lcc}
+\toprule
+Encoder & Nowcast micro RMSE & Nowcast macro RMSE \\
+\midrule
+GraphSAGE & \textbf{225.075} $\pm$ 8.846 & \textbf{120.220} $\pm$ 6.416 \\
+RouteNet-lite & 348.617 $\pm$ 28.211 & 198.618 $\pm$ 14.287 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+For lead-1 forecasting, GraphSAGE again achieves lower error:
+GraphSAGE micro RMSE = 172.222 $\pm$ 13.390, while RouteNet-lite reaches 199.387 $\pm$ 126.190.
+
+\subsection{Latency}
+We also measure encoder runtime (CPU) using a fixed number of steps.
+GraphSAGE is faster in our implementation, with 0.610 ms/step versus 1.375 ms/step for RouteNet-lite (both measured over 21 steps).
+
+\subsection{Takeaway}
+GraphSAGE provides a better accuracy--efficiency trade-off in this setting.
+Accordingly, we adopt GraphSAGE as the default encoder in the remainder of the thesis experiments.

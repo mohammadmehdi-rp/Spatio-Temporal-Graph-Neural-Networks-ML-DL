@@ -1,0 +1,14 @@
+{
+  "dataset": "dataset_sparse_v4_fix.npz",
+  "ckpts": [
+    "lead1_fix_ema_s0.pt",
+    "lead1_fix_ema_s1.pt",
+    "lead1_fix_ema_s2.pt",
+    "lead1_fix_ema_s3.pt",
+    "lead1_fix_ema_s4.pt"
+  ],
+  "calibration": {
+    "tau": 269.153,
+    "alpha": 1.371
+  }
+}

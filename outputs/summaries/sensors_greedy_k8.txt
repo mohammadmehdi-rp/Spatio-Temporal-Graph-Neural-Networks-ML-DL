@@ -1,0 +1,8 @@
+port5
+port6
+port23
+port18
+port1
+port16
+port21
+port12

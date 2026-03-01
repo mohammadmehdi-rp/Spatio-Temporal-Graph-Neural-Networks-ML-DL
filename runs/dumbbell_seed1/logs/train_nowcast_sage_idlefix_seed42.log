@@ -1,0 +1,20 @@
+[nowcast-sparse][ep 001] train_loss=0.00876 val_busy_RMSE=5.642
+[nowcast-sparse][ep 002] train_loss=0.00306 val_busy_RMSE=2.965
+[nowcast-sparse][ep 003] train_loss=0.00260 val_busy_RMSE=2.460
+[nowcast-sparse][ep 004] train_loss=0.00251 val_busy_RMSE=3.208
+[nowcast-sparse][ep 005] train_loss=0.00223 val_busy_RMSE=2.537
+[nowcast-sparse][ep 006] train_loss=0.00207 val_busy_RMSE=2.321
+[nowcast-sparse][ep 007] train_loss=0.00185 val_busy_RMSE=4.816
+[nowcast-sparse][ep 008] train_loss=0.00172 val_busy_RMSE=4.797
+[nowcast-sparse][ep 009] train_loss=0.00170 val_busy_RMSE=5.933
+[nowcast-sparse][ep 010] train_loss=0.00170 val_busy_RMSE=5.209
+[nowcast-sparse][ep 011] train_loss=0.00142 val_busy_RMSE=5.758
+[nowcast-sparse][ep 012] train_loss=0.00156 val_busy_RMSE=3.491
+[nowcast-sparse][ep 013] train_loss=0.00140 val_busy_RMSE=5.143
+[nowcast-sparse][ep 014] train_loss=0.00140 val_busy_RMSE=3.777
+[nowcast-sparse][ep 015] train_loss=0.00135 val_busy_RMSE=3.934
+[nowcast-sparse][ep 016] train_loss=0.00140 val_busy_RMSE=3.623
+[nowcast-sparse][ep 017] train_loss=0.00127 val_busy_RMSE=5.230
+[nowcast-sparse][ep 018] train_loss=0.00120 val_busy_RMSE=2.823
+Early stop at epoch 18.
+TEST nowcast micro 2.935 | macro 1.062 | idleFP>0 0.591 | idleFP>1 0.000 | saved runs/dumbbell_seed1/models/nowcast_sage_idlefix_seed42.pt

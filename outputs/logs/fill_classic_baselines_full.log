@@ -1,0 +1,11 @@
+[OK] wrote outputs/summaries/classic_baselines.csv
+[OK] filled overview: outputs/summaries/results_overview.csv
+
+=== Baselines filled ===
+NOWCAST naive micro=38.091 macro=7.775
+NOWCAST MA(5) micro=63.566 macro=12.975
+NOWCAST Ridge(alpha=0.1) micro=0.002 macro=0.002
+NOWCAST RF micro=7.346 macro=1.500
+LEAD1 AR(p=5, alpha=0.1) micro=38.861
+LEAD1 ARIMA(p=5,1,0 alpha=100.0) micro=40.065
+LEAD1 Kalman micro=71.407

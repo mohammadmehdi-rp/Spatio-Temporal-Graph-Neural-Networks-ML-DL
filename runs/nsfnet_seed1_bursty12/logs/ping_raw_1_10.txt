@@ -1,0 +1,1040 @@
+PING 10.0.0.11 (10.0.0.11) 56(84) bytes of data.
+64 bytes from 10.0.0.11: icmp_seq=1 ttl=64 time=24.4 ms
+64 bytes from 10.0.0.11: icmp_seq=2 ttl=64 time=39.1 ms
+64 bytes from 10.0.0.11: icmp_seq=3 ttl=64 time=24.7 ms
+64 bytes from 10.0.0.11: icmp_seq=4 ttl=64 time=30.3 ms
+64 bytes from 10.0.0.11: icmp_seq=5 ttl=64 time=36.0 ms
+64 bytes from 10.0.0.11: icmp_seq=6 ttl=64 time=22.9 ms
+64 bytes from 10.0.0.11: icmp_seq=7 ttl=64 time=26.1 ms
+64 bytes from 10.0.0.11: icmp_seq=8 ttl=64 time=32.5 ms
+64 bytes from 10.0.0.11: icmp_seq=9 ttl=64 time=30.8 ms
+64 bytes from 10.0.0.11: icmp_seq=10 ttl=64 time=30.2 ms
+64 bytes from 10.0.0.11: icmp_seq=11 ttl=64 time=31.3 ms
+64 bytes from 10.0.0.11: icmp_seq=12 ttl=64 time=30.0 ms
+64 bytes from 10.0.0.11: icmp_seq=13 ttl=64 time=28.8 ms
+64 bytes from 10.0.0.11: icmp_seq=14 ttl=64 time=23.2 ms
+64 bytes from 10.0.0.11: icmp_seq=15 ttl=64 time=33.2 ms
+64 bytes from 10.0.0.11: icmp_seq=16 ttl=64 time=35.1 ms
+64 bytes from 10.0.0.11: icmp_seq=17 ttl=64 time=23.6 ms
+64 bytes from 10.0.0.11: icmp_seq=18 ttl=64 time=23.4 ms
+64 bytes from 10.0.0.11: icmp_seq=19 ttl=64 time=26.4 ms
+64 bytes from 10.0.0.11: icmp_seq=20 ttl=64 time=24.5 ms
+64 bytes from 10.0.0.11: icmp_seq=21 ttl=64 time=24.4 ms
+64 bytes from 10.0.0.11: icmp_seq=22 ttl=64 time=22.6 ms
+64 bytes from 10.0.0.11: icmp_seq=23 ttl=64 time=24.5 ms
+64 bytes from 10.0.0.11: icmp_seq=24 ttl=64 time=36.5 ms
+64 bytes from 10.0.0.11: icmp_seq=25 ttl=64 time=24.2 ms
+64 bytes from 10.0.0.11: icmp_seq=26 ttl=64 time=30.8 ms
+64 bytes from 10.0.0.11: icmp_seq=27 ttl=64 time=32.9 ms
+64 bytes from 10.0.0.11: icmp_seq=28 ttl=64 time=24.3 ms
+64 bytes from 10.0.0.11: icmp_seq=29 ttl=64 time=30.1 ms
+64 bytes from 10.0.0.11: icmp_seq=30 ttl=64 time=24.7 ms
+64 bytes from 10.0.0.11: icmp_seq=31 ttl=64 time=28.6 ms
+64 bytes from 10.0.0.11: icmp_seq=32 ttl=64 time=34.1 ms
+64 bytes from 10.0.0.11: icmp_seq=33 ttl=64 time=28.5 ms
+64 bytes from 10.0.0.11: icmp_seq=34 ttl=64 time=25.0 ms
+64 bytes from 10.0.0.11: icmp_seq=35 ttl=64 time=23.1 ms
+64 bytes from 10.0.0.11: icmp_seq=36 ttl=64 time=26.2 ms
+64 bytes from 10.0.0.11: icmp_seq=37 ttl=64 time=23.3 ms
+64 bytes from 10.0.0.11: icmp_seq=38 ttl=64 time=28.9 ms
+64 bytes from 10.0.0.11: icmp_seq=39 ttl=64 time=25.8 ms
+64 bytes from 10.0.0.11: icmp_seq=40 ttl=64 time=36.3 ms
+64 bytes from 10.0.0.11: icmp_seq=41 ttl=64 time=24.7 ms
+64 bytes from 10.0.0.11: icmp_seq=42 ttl=64 time=22.2 ms
+64 bytes from 10.0.0.11: icmp_seq=43 ttl=64 time=29.4 ms
+64 bytes from 10.0.0.11: icmp_seq=44 ttl=64 time=23.4 ms
+64 bytes from 10.0.0.11: icmp_seq=45 ttl=64 time=24.8 ms
+64 bytes from 10.0.0.11: icmp_seq=46 ttl=64 time=27.5 ms
+64 bytes from 10.0.0.11: icmp_seq=47 ttl=64 time=35.4 ms
+64 bytes from 10.0.0.11: icmp_seq=48 ttl=64 time=23.8 ms
+64 bytes from 10.0.0.11: icmp_seq=49 ttl=64 time=28.5 ms
+64 bytes from 10.0.0.11: icmp_seq=50 ttl=64 time=24.3 ms
+64 bytes from 10.0.0.11: icmp_seq=51 ttl=64 time=27.5 ms
+64 bytes from 10.0.0.11: icmp_seq=52 ttl=64 time=33.3 ms
+64 bytes from 10.0.0.11: icmp_seq=53 ttl=64 time=33.3 ms
+64 bytes from 10.0.0.11: icmp_seq=54 ttl=64 time=23.6 ms
+64 bytes from 10.0.0.11: icmp_seq=55 ttl=64 time=25.6 ms
+64 bytes from 10.0.0.11: icmp_seq=56 ttl=64 time=29.6 ms
+64 bytes from 10.0.0.11: icmp_seq=57 ttl=64 time=26.1 ms
+64 bytes from 10.0.0.11: icmp_seq=58 ttl=64 time=27.6 ms
+64 bytes from 10.0.0.11: icmp_seq=59 ttl=64 time=34.4 ms
+64 bytes from 10.0.0.11: icmp_seq=60 ttl=64 time=24.4 ms
+64 bytes from 10.0.0.11: icmp_seq=61 ttl=64 time=49.2 ms
+64 bytes from 10.0.0.11: icmp_seq=62 ttl=64 time=49.0 ms
+64 bytes from 10.0.0.11: icmp_seq=63 ttl=64 time=23.4 ms
+64 bytes from 10.0.0.11: icmp_seq=64 ttl=64 time=32.7 ms
+64 bytes from 10.0.0.11: icmp_seq=65 ttl=64 time=23.6 ms
+64 bytes from 10.0.0.11: icmp_seq=66 ttl=64 time=30.6 ms
+64 bytes from 10.0.0.11: icmp_seq=67 ttl=64 time=23.0 ms
+64 bytes from 10.0.0.11: icmp_seq=68 ttl=64 time=24.0 ms
+64 bytes from 10.0.0.11: icmp_seq=69 ttl=64 time=25.5 ms
+64 bytes from 10.0.0.11: icmp_seq=70 ttl=64 time=25.9 ms
+64 bytes from 10.0.0.11: icmp_seq=71 ttl=64 time=24.3 ms
+64 bytes from 10.0.0.11: icmp_seq=72 ttl=64 time=26.8 ms
+64 bytes from 10.0.0.11: icmp_seq=73 ttl=64 time=22.6 ms
+64 bytes from 10.0.0.11: icmp_seq=74 ttl=64 time=36.9 ms
+64 bytes from 10.0.0.11: icmp_seq=75 ttl=64 time=22.6 ms
+64 bytes from 10.0.0.11: icmp_seq=76 ttl=64 time=28.0 ms
+64 bytes from 10.0.0.11: icmp_seq=77 ttl=64 time=31.2 ms
+64 bytes from 10.0.0.11: icmp_seq=78 ttl=64 time=23.9 ms
+64 bytes from 10.0.0.11: icmp_seq=79 ttl=64 time=27.0 ms
+64 bytes from 10.0.0.11: icmp_seq=80 ttl=64 time=29.0 ms
+64 bytes from 10.0.0.11: icmp_seq=81 ttl=64 time=24.9 ms
+64 bytes from 10.0.0.11: icmp_seq=82 ttl=64 time=27.4 ms
+64 bytes from 10.0.0.11: icmp_seq=83 ttl=64 time=25.2 ms
+64 bytes from 10.0.0.11: icmp_seq=84 ttl=64 time=25.2 ms
+64 bytes from 10.0.0.11: icmp_seq=85 ttl=64 time=24.6 ms
+64 bytes from 10.0.0.11: icmp_seq=86 ttl=64 time=30.8 ms
+64 bytes from 10.0.0.11: icmp_seq=87 ttl=64 time=25.0 ms
+64 bytes from 10.0.0.11: icmp_seq=88 ttl=64 time=25.1 ms
+64 bytes from 10.0.0.11: icmp_seq=89 ttl=64 time=23.6 ms
+64 bytes from 10.0.0.11: icmp_seq=90 ttl=64 time=26.6 ms
+64 bytes from 10.0.0.11: icmp_seq=91 ttl=64 time=33.3 ms
+64 bytes from 10.0.0.11: icmp_seq=92 ttl=64 time=29.1 ms
+64 bytes from 10.0.0.11: icmp_seq=93 ttl=64 time=25.8 ms
+64 bytes from 10.0.0.11: icmp_seq=94 ttl=64 time=23.9 ms
+64 bytes from 10.0.0.11: icmp_seq=95 ttl=64 time=24.7 ms
+64 bytes from 10.0.0.11: icmp_seq=96 ttl=64 time=24.6 ms
+64 bytes from 10.0.0.11: icmp_seq=97 ttl=64 time=23.0 ms
+64 bytes from 10.0.0.11: icmp_seq=98 ttl=64 time=23.9 ms
+64 bytes from 10.0.0.11: icmp_seq=99 ttl=64 time=26.1 ms
+64 bytes from 10.0.0.11: icmp_seq=100 ttl=64 time=33.8 ms
+64 bytes from 10.0.0.11: icmp_seq=101 ttl=64 time=22.5 ms
+64 bytes from 10.0.0.11: icmp_seq=102 ttl=64 time=23.7 ms
+64 bytes from 10.0.0.11: icmp_seq=103 ttl=64 time=27.0 ms
+64 bytes from 10.0.0.11: icmp_seq=104 ttl=64 time=24.1 ms
+64 bytes from 10.0.0.11: icmp_seq=105 ttl=64 time=24.3 ms
+64 bytes from 10.0.0.11: icmp_seq=106 ttl=64 time=32.3 ms
+64 bytes from 10.0.0.11: icmp_seq=107 ttl=64 time=31.3 ms
+64 bytes from 10.0.0.11: icmp_seq=108 ttl=64 time=23.2 ms
+64 bytes from 10.0.0.11: icmp_seq=109 ttl=64 time=23.8 ms
+64 bytes from 10.0.0.11: icmp_seq=110 ttl=64 time=22.9 ms
+64 bytes from 10.0.0.11: icmp_seq=111 ttl=64 time=27.6 ms
+64 bytes from 10.0.0.11: icmp_seq=112 ttl=64 time=23.7 ms
+64 bytes from 10.0.0.11: icmp_seq=113 ttl=64 time=31.4 ms
+64 bytes from 10.0.0.11: icmp_seq=114 ttl=64 time=23.1 ms
+64 bytes from 10.0.0.11: icmp_seq=115 ttl=64 time=32.5 ms
+64 bytes from 10.0.0.11: icmp_seq=116 ttl=64 time=25.1 ms
+64 bytes from 10.0.0.11: icmp_seq=117 ttl=64 time=38.0 ms
+64 bytes from 10.0.0.11: icmp_seq=118 ttl=64 time=34.5 ms
+64 bytes from 10.0.0.11: icmp_seq=119 ttl=64 time=22.7 ms
+64 bytes from 10.0.0.11: icmp_seq=120 ttl=64 time=34.1 ms
+64 bytes from 10.0.0.11: icmp_seq=121 ttl=64 time=32.0 ms
+64 bytes from 10.0.0.11: icmp_seq=122 ttl=64 time=28.5 ms
+64 bytes from 10.0.0.11: icmp_seq=123 ttl=64 time=25.7 ms
+64 bytes from 10.0.0.11: icmp_seq=124 ttl=64 time=27.9 ms
+64 bytes from 10.0.0.11: icmp_seq=125 ttl=64 time=25.1 ms
+64 bytes from 10.0.0.11: icmp_seq=126 ttl=64 time=24.5 ms
+64 bytes from 10.0.0.11: icmp_seq=127 ttl=64 time=33.8 ms
+64 bytes from 10.0.0.11: icmp_seq=128 ttl=64 time=28.0 ms
+64 bytes from 10.0.0.11: icmp_seq=129 ttl=64 time=25.1 ms
+64 bytes from 10.0.0.11: icmp_seq=130 ttl=64 time=24.9 ms
+64 bytes from 10.0.0.11: icmp_seq=131 ttl=64 time=23.5 ms
+64 bytes from 10.0.0.11: icmp_seq=132 ttl=64 time=45.7 ms
+64 bytes from 10.0.0.11: icmp_seq=133 ttl=64 time=25.3 ms
+64 bytes from 10.0.0.11: icmp_seq=134 ttl=64 time=30.1 ms
+64 bytes from 10.0.0.11: icmp_seq=135 ttl=64 time=38.7 ms
+64 bytes from 10.0.0.11: icmp_seq=136 ttl=64 time=27.0 ms
+64 bytes from 10.0.0.11: icmp_seq=137 ttl=64 time=22.7 ms
+64 bytes from 10.0.0.11: icmp_seq=138 ttl=64 time=23.3 ms
+64 bytes from 10.0.0.11: icmp_seq=139 ttl=64 time=30.1 ms
+64 bytes from 10.0.0.11: icmp_seq=140 ttl=64 time=29.6 ms
+64 bytes from 10.0.0.11: icmp_seq=141 ttl=64 time=29.5 ms
+64 bytes from 10.0.0.11: icmp_seq=142 ttl=64 time=23.9 ms
+64 bytes from 10.0.0.11: icmp_seq=143 ttl=64 time=35.8 ms
+64 bytes from 10.0.0.11: icmp_seq=144 ttl=64 time=27.5 ms
+64 bytes from 10.0.0.11: icmp_seq=145 ttl=64 time=32.1 ms
+64 bytes from 10.0.0.11: icmp_seq=146 ttl=64 time=26.6 ms
+64 bytes from 10.0.0.11: icmp_seq=147 ttl=64 time=24.4 ms
+64 bytes from 10.0.0.11: icmp_seq=148 ttl=64 time=24.4 ms
+64 bytes from 10.0.0.11: icmp_seq=149 ttl=64 time=35.7 ms
+64 bytes from 10.0.0.11: icmp_seq=150 ttl=64 time=22.5 ms
+64 bytes from 10.0.0.11: icmp_seq=151 ttl=64 time=24.5 ms
+64 bytes from 10.0.0.11: icmp_seq=152 ttl=64 time=29.4 ms
+64 bytes from 10.0.0.11: icmp_seq=153 ttl=64 time=22.8 ms
+64 bytes from 10.0.0.11: icmp_seq=154 ttl=64 time=27.4 ms
+64 bytes from 10.0.0.11: icmp_seq=155 ttl=64 time=25.1 ms
+64 bytes from 10.0.0.11: icmp_seq=156 ttl=64 time=31.7 ms
+64 bytes from 10.0.0.11: icmp_seq=157 ttl=64 time=25.1 ms
+64 bytes from 10.0.0.11: icmp_seq=158 ttl=64 time=23.1 ms
+64 bytes from 10.0.0.11: icmp_seq=159 ttl=64 time=25.0 ms
+64 bytes from 10.0.0.11: icmp_seq=160 ttl=64 time=22.8 ms
+64 bytes from 10.0.0.11: icmp_seq=161 ttl=64 time=1268 ms
+no answer yet for icmp_seq=162
+no answer yet for icmp_seq=163
+no answer yet for icmp_seq=164
+no answer yet for icmp_seq=165
+no answer yet for icmp_seq=166
+no answer yet for icmp_seq=167
+no answer yet for icmp_seq=168
+64 bytes from 10.0.0.11: icmp_seq=162 ttl=64 time=3782 ms
+64 bytes from 10.0.0.11: icmp_seq=163 ttl=64 time=3052 ms
+64 bytes from 10.0.0.11: icmp_seq=164 ttl=64 time=2073 ms
+64 bytes from 10.0.0.11: icmp_seq=165 ttl=64 time=1134 ms
+64 bytes from 10.0.0.11: icmp_seq=166 ttl=64 time=892 ms
+no answer yet for icmp_seq=169
+64 bytes from 10.0.0.11: icmp_seq=167 ttl=64 time=698 ms
+64 bytes from 10.0.0.11: icmp_seq=168 ttl=64 time=416 ms
+64 bytes from 10.0.0.11: icmp_seq=169 ttl=64 time=209 ms
+64 bytes from 10.0.0.11: icmp_seq=170 ttl=64 time=23.9 ms
+no answer yet for icmp_seq=171
+64 bytes from 10.0.0.11: icmp_seq=171 ttl=64 time=241 ms
+no answer yet for icmp_seq=172
+no answer yet for icmp_seq=173
+64 bytes from 10.0.0.11: icmp_seq=172 ttl=64 time=449 ms
+no answer yet for icmp_seq=174
+no answer yet for icmp_seq=175
+64 bytes from 10.0.0.11: icmp_seq=173 ttl=64 time=647 ms
+no answer yet for icmp_seq=176
+no answer yet for icmp_seq=177
+64 bytes from 10.0.0.11: icmp_seq=174 ttl=64 time=858 ms
+no answer yet for icmp_seq=178
+no answer yet for icmp_seq=179
+64 bytes from 10.0.0.11: icmp_seq=175 ttl=64 time=1065 ms
+no answer yet for icmp_seq=180
+no answer yet for icmp_seq=181
+64 bytes from 10.0.0.11: icmp_seq=176 ttl=64 time=1259 ms
+no answer yet for icmp_seq=182
+no answer yet for icmp_seq=183
+64 bytes from 10.0.0.11: icmp_seq=177 ttl=64 time=1443 ms
+no answer yet for icmp_seq=184
+no answer yet for icmp_seq=185
+64 bytes from 10.0.0.11: icmp_seq=178 ttl=64 time=1628 ms
+no answer yet for icmp_seq=186
+no answer yet for icmp_seq=187
+64 bytes from 10.0.0.11: icmp_seq=179 ttl=64 time=1847 ms
+no answer yet for icmp_seq=188
+no answer yet for icmp_seq=189
+64 bytes from 10.0.0.11: icmp_seq=180 ttl=64 time=2048 ms
+no answer yet for icmp_seq=190
+64 bytes from 10.0.0.11: icmp_seq=181 ttl=64 time=2218 ms
+no answer yet for icmp_seq=191
+no answer yet for icmp_seq=192
+no answer yet for icmp_seq=193
+no answer yet for icmp_seq=194
+64 bytes from 10.0.0.11: icmp_seq=183 ttl=64 time=2502 ms
+no answer yet for icmp_seq=195
+64 bytes from 10.0.0.11: icmp_seq=184 ttl=64 time=2597 ms
+no answer yet for icmp_seq=196
+no answer yet for icmp_seq=197
+64 bytes from 10.0.0.11: icmp_seq=185 ttl=64 time=2750 ms
+no answer yet for icmp_seq=198
+no answer yet for icmp_seq=199
+64 bytes from 10.0.0.11: icmp_seq=186 ttl=64 time=2885 ms
+no answer yet for icmp_seq=200
+no answer yet for icmp_seq=201
+no answer yet for icmp_seq=202
+64 bytes from 10.0.0.11: icmp_seq=188 ttl=64 time=3212 ms
+no answer yet for icmp_seq=203
+no answer yet for icmp_seq=204
+64 bytes from 10.0.0.11: icmp_seq=189 ttl=64 time=3259 ms
+no answer yet for icmp_seq=205
+64 bytes from 10.0.0.11: icmp_seq=190 ttl=64 time=3426 ms
+no answer yet for icmp_seq=206
+no answer yet for icmp_seq=207
+64 bytes from 10.0.0.11: icmp_seq=191 ttl=64 time=3557 ms
+no answer yet for icmp_seq=208
+no answer yet for icmp_seq=209
+no answer yet for icmp_seq=210
+no answer yet for icmp_seq=211
+no answer yet for icmp_seq=212
+no answer yet for icmp_seq=213
+64 bytes from 10.0.0.11: icmp_seq=195 ttl=64 time=4009 ms
+no answer yet for icmp_seq=214
+no answer yet for icmp_seq=215
+64 bytes from 10.0.0.11: icmp_seq=196 ttl=64 time=4124 ms
+no answer yet for icmp_seq=216
+64 bytes from 10.0.0.11: icmp_seq=197 ttl=64 time=4242 ms
+no answer yet for icmp_seq=217
+no answer yet for icmp_seq=218
+no answer yet for icmp_seq=219
+64 bytes from 10.0.0.11: icmp_seq=199 ttl=64 time=4444 ms
+no answer yet for icmp_seq=220
+no answer yet for icmp_seq=221
+no answer yet for icmp_seq=222
+64 bytes from 10.0.0.11: icmp_seq=201 ttl=64 time=4659 ms
+no answer yet for icmp_seq=223
+no answer yet for icmp_seq=224
+no answer yet for icmp_seq=225
+no answer yet for icmp_seq=226
+64 bytes from 10.0.0.11: icmp_seq=203 ttl=64 time=4906 ms
+no answer yet for icmp_seq=227
+64 bytes from 10.0.0.11: icmp_seq=204 ttl=64 time=5016 ms
+no answer yet for icmp_seq=228
+no answer yet for icmp_seq=229
+no answer yet for icmp_seq=230
+64 bytes from 10.0.0.11: icmp_seq=206 ttl=64 time=5188 ms
+no answer yet for icmp_seq=231
+64 bytes from 10.0.0.11: icmp_seq=207 ttl=64 time=5254 ms
+no answer yet for icmp_seq=232
+no answer yet for icmp_seq=233
+no answer yet for icmp_seq=234
+64 bytes from 10.0.0.11: icmp_seq=209 ttl=64 time=5369 ms
+no answer yet for icmp_seq=235
+64 bytes from 10.0.0.11: icmp_seq=210 ttl=64 time=5436 ms
+no answer yet for icmp_seq=236
+no answer yet for icmp_seq=237
+64 bytes from 10.0.0.11: icmp_seq=211 ttl=64 time=5512 ms
+no answer yet for icmp_seq=238
+no answer yet for icmp_seq=239
+no answer yet for icmp_seq=240
+64 bytes from 10.0.0.11: icmp_seq=213 ttl=64 time=5715 ms
+no answer yet for icmp_seq=241
+no answer yet for icmp_seq=242
+no answer yet for icmp_seq=243
+no answer yet for icmp_seq=244
+64 bytes from 10.0.0.11: icmp_seq=216 ttl=64 time=5887 ms
+no answer yet for icmp_seq=245
+no answer yet for icmp_seq=246
+64 bytes from 10.0.0.11: icmp_seq=218 ttl=64 time=6038 ms
+no answer yet for icmp_seq=247
+no answer yet for icmp_seq=248
+64 bytes from 10.0.0.11: icmp_seq=219 ttl=64 time=6097 ms
+no answer yet for icmp_seq=249
+no answer yet for icmp_seq=250
+64 bytes from 10.0.0.11: icmp_seq=221 ttl=64 time=6196 ms
+no answer yet for icmp_seq=251
+no answer yet for icmp_seq=252
+64 bytes from 10.0.0.11: icmp_seq=222 ttl=64 time=6290 ms
+no answer yet for icmp_seq=253
+no answer yet for icmp_seq=254
+no answer yet for icmp_seq=255
+no answer yet for icmp_seq=256
+no answer yet for icmp_seq=257
+64 bytes from 10.0.0.11: icmp_seq=226 ttl=64 time=6574 ms
+no answer yet for icmp_seq=258
+no answer yet for icmp_seq=259
+no answer yet for icmp_seq=260
+64 bytes from 10.0.0.11: icmp_seq=228 ttl=64 time=6762 ms
+no answer yet for icmp_seq=261
+no answer yet for icmp_seq=262
+no answer yet for icmp_seq=263
+no answer yet for icmp_seq=264
+64 bytes from 10.0.0.11: icmp_seq=231 ttl=64 time=6955 ms
+no answer yet for icmp_seq=265
+no answer yet for icmp_seq=266
+64 bytes from 10.0.0.11: icmp_seq=233 ttl=64 time=7109 ms
+no answer yet for icmp_seq=267
+no answer yet for icmp_seq=268
+no answer yet for icmp_seq=269
+no answer yet for icmp_seq=270
+no answer yet for icmp_seq=271
+no answer yet for icmp_seq=272
+no answer yet for icmp_seq=273
+no answer yet for icmp_seq=274
+no answer yet for icmp_seq=275
+64 bytes from 10.0.0.11: icmp_seq=240 ttl=64 time=7457 ms
+no answer yet for icmp_seq=276
+64 bytes from 10.0.0.11: icmp_seq=241 ttl=64 time=7476 ms
+no answer yet for icmp_seq=277
+no answer yet for icmp_seq=278
+no answer yet for icmp_seq=279
+no answer yet for icmp_seq=280
+no answer yet for icmp_seq=281
+64 bytes from 10.0.0.11: icmp_seq=245 ttl=64 time=7641 ms
+no answer yet for icmp_seq=282
+64 bytes from 10.0.0.11: icmp_seq=246 ttl=64 time=7670 ms
+no answer yet for icmp_seq=283
+no answer yet for icmp_seq=284
+no answer yet for icmp_seq=285
+no answer yet for icmp_seq=286
+no answer yet for icmp_seq=287
+64 bytes from 10.0.0.11: icmp_seq=250 ttl=64 time=7802 ms
+no answer yet for icmp_seq=288
+64 bytes from 10.0.0.11: icmp_seq=252 ttl=64 time=8245 ms
+no answer yet for icmp_seq=289
+64 bytes from 10.0.0.11: icmp_seq=254 ttl=64 time=8338 ms
+no answer yet for icmp_seq=290
+64 bytes from 10.0.0.11: icmp_seq=255 ttl=64 time=8339 ms
+no answer yet for icmp_seq=291
+64 bytes from 10.0.0.11: icmp_seq=256 ttl=64 time=8380 ms
+no answer yet for icmp_seq=292
+64 bytes from 10.0.0.11: icmp_seq=261 ttl=64 time=7828 ms
+no answer yet for icmp_seq=293
+no answer yet for icmp_seq=294
+no answer yet for icmp_seq=295
+no answer yet for icmp_seq=296
+no answer yet for icmp_seq=297
+no answer yet for icmp_seq=298
+no answer yet for icmp_seq=299
+no answer yet for icmp_seq=300
+64 bytes from 10.0.0.11: icmp_seq=280 ttl=64 time=6534 ms
+no answer yet for icmp_seq=301
+no answer yet for icmp_seq=302
+no answer yet for icmp_seq=303
+no answer yet for icmp_seq=304
+no answer yet for icmp_seq=305
+no answer yet for icmp_seq=306
+no answer yet for icmp_seq=307
+64 bytes from 10.0.0.11: icmp_seq=305 ttl=64 time=658 ms
+64 bytes from 10.0.0.11: icmp_seq=306 ttl=64 time=504 ms
+64 bytes from 10.0.0.11: icmp_seq=307 ttl=64 time=307 ms
+64 bytes from 10.0.0.11: icmp_seq=308 ttl=64 time=117 ms
+64 bytes from 10.0.0.11: icmp_seq=309 ttl=64 time=27.1 ms
+64 bytes from 10.0.0.11: icmp_seq=310 ttl=64 time=33.9 ms
+64 bytes from 10.0.0.11: icmp_seq=311 ttl=64 time=25.0 ms
+64 bytes from 10.0.0.11: icmp_seq=312 ttl=64 time=23.4 ms
+64 bytes from 10.0.0.11: icmp_seq=313 ttl=64 time=23.7 ms
+64 bytes from 10.0.0.11: icmp_seq=314 ttl=64 time=25.2 ms
+64 bytes from 10.0.0.11: icmp_seq=315 ttl=64 time=24.6 ms
+64 bytes from 10.0.0.11: icmp_seq=316 ttl=64 time=30.5 ms
+64 bytes from 10.0.0.11: icmp_seq=317 ttl=64 time=26.5 ms
+64 bytes from 10.0.0.11: icmp_seq=318 ttl=64 time=24.2 ms
+64 bytes from 10.0.0.11: icmp_seq=319 ttl=64 time=30.1 ms
+64 bytes from 10.0.0.11: icmp_seq=320 ttl=64 time=24.0 ms
+no answer yet for icmp_seq=321
+no answer yet for icmp_seq=322
+no answer yet for icmp_seq=323
+64 bytes from 10.0.0.11: icmp_seq=321 ttl=64 time=786 ms
+no answer yet for icmp_seq=324
+no answer yet for icmp_seq=325
+no answer yet for icmp_seq=326
+no answer yet for icmp_seq=327
+no answer yet for icmp_seq=328
+64 bytes from 10.0.0.11: icmp_seq=322 ttl=64 time=2353 ms
+no answer yet for icmp_seq=329
+no answer yet for icmp_seq=330
+no answer yet for icmp_seq=331
+no answer yet for icmp_seq=332
+no answer yet for icmp_seq=333
+no answer yet for icmp_seq=334
+no answer yet for icmp_seq=335
+no answer yet for icmp_seq=336
+no answer yet for icmp_seq=337
+64 bytes from 10.0.0.11: icmp_seq=323 ttl=64 time=9503 ms
+no answer yet for icmp_seq=338
+64 bytes from 10.0.0.11: icmp_seq=324 ttl=64 time=10148 ms
+no answer yet for icmp_seq=339
+no answer yet for icmp_seq=340
+no answer yet for icmp_seq=341
+no answer yet for icmp_seq=342
+no answer yet for icmp_seq=343
+no answer yet for icmp_seq=344
+no answer yet for icmp_seq=345
+no answer yet for icmp_seq=346
+no answer yet for icmp_seq=347
+no answer yet for icmp_seq=348
+no answer yet for icmp_seq=349
+64 bytes from 10.0.0.11: icmp_seq=342 ttl=64 time=8071 ms
+64 bytes from 10.0.0.11: icmp_seq=343 ttl=64 time=6893 ms
+64 bytes from 10.0.0.11: icmp_seq=344 ttl=64 time=6067 ms
+64 bytes from 10.0.0.11: icmp_seq=345 ttl=64 time=5068 ms
+64 bytes from 10.0.0.11: icmp_seq=346 ttl=64 time=4080 ms
+64 bytes from 10.0.0.11: icmp_seq=347 ttl=64 time=3084 ms
+64 bytes from 10.0.0.11: icmp_seq=348 ttl=64 time=2053 ms
+64 bytes from 10.0.0.11: icmp_seq=349 ttl=64 time=1085 ms
+64 bytes from 10.0.0.11: icmp_seq=350 ttl=64 time=78.9 ms
+no answer yet for icmp_seq=351
+no answer yet for icmp_seq=352
+64 bytes from 10.0.0.11: icmp_seq=351 ttl=64 time=507 ms
+64 bytes from 10.0.0.11: icmp_seq=352 ttl=64 time=301 ms
+64 bytes from 10.0.0.11: icmp_seq=353 ttl=64 time=105 ms
+64 bytes from 10.0.0.11: icmp_seq=354 ttl=64 time=23.0 ms
+64 bytes from 10.0.0.11: icmp_seq=355 ttl=64 time=22.2 ms
+64 bytes from 10.0.0.11: icmp_seq=356 ttl=64 time=22.7 ms
+64 bytes from 10.0.0.11: icmp_seq=357 ttl=64 time=23.9 ms
+64 bytes from 10.0.0.11: icmp_seq=358 ttl=64 time=25.9 ms
+64 bytes from 10.0.0.11: icmp_seq=359 ttl=64 time=24.4 ms
+64 bytes from 10.0.0.11: icmp_seq=360 ttl=64 time=23.7 ms
+64 bytes from 10.0.0.11: icmp_seq=361 ttl=64 time=23.8 ms
+64 bytes from 10.0.0.11: icmp_seq=362 ttl=64 time=24.9 ms
+64 bytes from 10.0.0.11: icmp_seq=363 ttl=64 time=24.1 ms
+64 bytes from 10.0.0.11: icmp_seq=364 ttl=64 time=23.0 ms
+64 bytes from 10.0.0.11: icmp_seq=365 ttl=64 time=22.8 ms
+64 bytes from 10.0.0.11: icmp_seq=366 ttl=64 time=25.8 ms
+64 bytes from 10.0.0.11: icmp_seq=367 ttl=64 time=26.5 ms
+64 bytes from 10.0.0.11: icmp_seq=368 ttl=64 time=22.7 ms
+64 bytes from 10.0.0.11: icmp_seq=369 ttl=64 time=26.7 ms
+no answer yet for icmp_seq=370
+no answer yet for icmp_seq=371
+no answer yet for icmp_seq=372
+no answer yet for icmp_seq=373
+no answer yet for icmp_seq=374
+no answer yet for icmp_seq=375
+no answer yet for icmp_seq=376
+no answer yet for icmp_seq=377
+no answer yet for icmp_seq=378
+no answer yet for icmp_seq=379
+no answer yet for icmp_seq=380
+no answer yet for icmp_seq=381
+no answer yet for icmp_seq=382
+64 bytes from 10.0.0.11: icmp_seq=374 ttl=64 time=8222 ms
+64 bytes from 10.0.0.11: icmp_seq=375 ttl=64 time=7212 ms
+64 bytes from 10.0.0.11: icmp_seq=377 ttl=64 time=5252 ms
+64 bytes from 10.0.0.11: icmp_seq=376 ttl=64 time=6255 ms
+64 bytes from 10.0.0.11: icmp_seq=378 ttl=64 time=4261 ms
+64 bytes from 10.0.0.11: icmp_seq=379 ttl=64 time=3255 ms
+64 bytes from 10.0.0.11: icmp_seq=380 ttl=64 time=2259 ms
+64 bytes from 10.0.0.11: icmp_seq=381 ttl=64 time=2057 ms
+no answer yet for icmp_seq=383
+64 bytes from 10.0.0.11: icmp_seq=382 ttl=64 time=1271 ms
+64 bytes from 10.0.0.11: icmp_seq=383 ttl=64 time=272 ms
+no answer yet for icmp_seq=384
+64 bytes from 10.0.0.11: icmp_seq=384 ttl=64 time=570 ms
+no answer yet for icmp_seq=385
+no answer yet for icmp_seq=386
+64 bytes from 10.0.0.11: icmp_seq=385 ttl=64 time=585 ms
+no answer yet for icmp_seq=387
+64 bytes from 10.0.0.11: icmp_seq=386 ttl=64 time=1280 ms
+64 bytes from 10.0.0.11: icmp_seq=387 ttl=64 time=1163 ms
+no answer yet for icmp_seq=388
+no answer yet for icmp_seq=389
+64 bytes from 10.0.0.11: icmp_seq=388 ttl=64 time=703 ms
+no answer yet for icmp_seq=390
+no answer yet for icmp_seq=391
+64 bytes from 10.0.0.11: icmp_seq=389 ttl=64 time=801 ms
+no answer yet for icmp_seq=392
+64 bytes from 10.0.0.11: icmp_seq=390 ttl=64 time=990 ms
+no answer yet for icmp_seq=393
+no answer yet for icmp_seq=394
+64 bytes from 10.0.0.11: icmp_seq=391 ttl=64 time=1463 ms
+64 bytes from 10.0.0.11: icmp_seq=392 ttl=64 time=1181 ms
+no answer yet for icmp_seq=395
+64 bytes from 10.0.0.11: icmp_seq=393 ttl=64 time=1029 ms
+no answer yet for icmp_seq=396
+no answer yet for icmp_seq=397
+no answer yet for icmp_seq=398
+64 bytes from 10.0.0.11: icmp_seq=395 ttl=64 time=1260 ms
+no answer yet for icmp_seq=399
+no answer yet for icmp_seq=400
+64 bytes from 10.0.0.11: icmp_seq=397 ttl=64 time=1345 ms
+64 bytes from 10.0.0.11: icmp_seq=398 ttl=64 time=875 ms
+no answer yet for icmp_seq=401
+64 bytes from 10.0.0.11: icmp_seq=399 ttl=64 time=756 ms
+64 bytes from 10.0.0.11: icmp_seq=400 ttl=64 time=566 ms
+64 bytes from 10.0.0.11: icmp_seq=401 ttl=64 time=351 ms
+no answer yet for icmp_seq=402
+64 bytes from 10.0.0.11: icmp_seq=402 ttl=64 time=271 ms
+no answer yet for icmp_seq=403
+64 bytes from 10.0.0.11: icmp_seq=403 ttl=64 time=865 ms
+no answer yet for icmp_seq=404
+no answer yet for icmp_seq=405
+no answer yet for icmp_seq=406
+no answer yet for icmp_seq=407
+no answer yet for icmp_seq=408
+no answer yet for icmp_seq=409
+no answer yet for icmp_seq=410
+no answer yet for icmp_seq=411
+no answer yet for icmp_seq=412
+no answer yet for icmp_seq=413
+no answer yet for icmp_seq=414
+no answer yet for icmp_seq=415
+no answer yet for icmp_seq=416
+no answer yet for icmp_seq=417
+no answer yet for icmp_seq=418
+no answer yet for icmp_seq=419
+no answer yet for icmp_seq=420
+no answer yet for icmp_seq=421
+no answer yet for icmp_seq=422
+no answer yet for icmp_seq=423
+no answer yet for icmp_seq=424
+no answer yet for icmp_seq=425
+no answer yet for icmp_seq=426
+no answer yet for icmp_seq=427
+no answer yet for icmp_seq=428
+no answer yet for icmp_seq=429
+64 bytes from 10.0.0.11: icmp_seq=427 ttl=64 time=1527 ms
+64 bytes from 10.0.0.11: icmp_seq=428 ttl=64 time=518 ms
+64 bytes from 10.0.0.11: icmp_seq=429 ttl=64 time=324 ms
+no answer yet for icmp_seq=430
+64 bytes from 10.0.0.11: icmp_seq=430 ttl=64 time=607 ms
+64 bytes from 10.0.0.11: icmp_seq=431 ttl=64 time=44.0 ms
+no answer yet for icmp_seq=432
+no answer yet for icmp_seq=433
+no answer yet for icmp_seq=434
+no answer yet for icmp_seq=435
+no answer yet for icmp_seq=436
+no answer yet for icmp_seq=437
+no answer yet for icmp_seq=438
+no answer yet for icmp_seq=439
+64 bytes from 10.0.0.11: icmp_seq=436 ttl=64 time=1380 ms
+64 bytes from 10.0.0.11: icmp_seq=437 ttl=64 time=863 ms
+64 bytes from 10.0.0.11: icmp_seq=438 ttl=64 time=467 ms
+64 bytes from 10.0.0.11: icmp_seq=439 ttl=64 time=259 ms
+64 bytes from 10.0.0.11: icmp_seq=440 ttl=64 time=100 ms
+64 bytes from 10.0.0.11: icmp_seq=441 ttl=64 time=39.6 ms
+no answer yet for icmp_seq=442
+no answer yet for icmp_seq=443
+no answer yet for icmp_seq=444
+no answer yet for icmp_seq=445
+no answer yet for icmp_seq=446
+no answer yet for icmp_seq=447
+no answer yet for icmp_seq=448
+64 bytes from 10.0.0.11: icmp_seq=447 ttl=64 time=551 ms
+64 bytes from 10.0.0.11: icmp_seq=448 ttl=64 time=367 ms
+64 bytes from 10.0.0.11: icmp_seq=449 ttl=64 time=174 ms
+64 bytes from 10.0.0.11: icmp_seq=450 ttl=64 time=31.3 ms
+64 bytes from 10.0.0.11: icmp_seq=451 ttl=64 time=195 ms
+no answer yet for icmp_seq=452
+64 bytes from 10.0.0.11: icmp_seq=452 ttl=64 time=367 ms
+no answer yet for icmp_seq=453
+no answer yet for icmp_seq=454
+64 bytes from 10.0.0.11: icmp_seq=453 ttl=64 time=522 ms
+no answer yet for icmp_seq=455
+no answer yet for icmp_seq=456
+64 bytes from 10.0.0.11: icmp_seq=454 ttl=64 time=675 ms
+no answer yet for icmp_seq=457
+no answer yet for icmp_seq=458
+64 bytes from 10.0.0.11: icmp_seq=455 ttl=64 time=825 ms
+no answer yet for icmp_seq=459
+no answer yet for icmp_seq=460
+64 bytes from 10.0.0.11: icmp_seq=456 ttl=64 time=1028 ms
+no answer yet for icmp_seq=461
+64 bytes from 10.0.0.11: icmp_seq=457 ttl=64 time=1209 ms
+no answer yet for icmp_seq=462
+no answer yet for icmp_seq=463
+64 bytes from 10.0.0.11: icmp_seq=458 ttl=64 time=1391 ms
+no answer yet for icmp_seq=464
+no answer yet for icmp_seq=465
+64 bytes from 10.0.0.11: icmp_seq=459 ttl=64 time=1523 ms
+no answer yet for icmp_seq=466
+64 bytes from 10.0.0.11: icmp_seq=460 ttl=64 time=1551 ms
+64 bytes from 10.0.0.11: icmp_seq=461 ttl=64 time=1391 ms
+no answer yet for icmp_seq=467
+64 bytes from 10.0.0.11: icmp_seq=462 ttl=64 time=1607 ms
+64 bytes from 10.0.0.11: icmp_seq=463 ttl=64 time=1482 ms
+64 bytes from 10.0.0.11: icmp_seq=464 ttl=64 time=1333 ms
+64 bytes from 10.0.0.11: icmp_seq=466 ttl=64 time=928 ms
+64 bytes from 10.0.0.11: icmp_seq=467 ttl=64 time=726 ms
+no answer yet for icmp_seq=468
+64 bytes from 10.0.0.11: icmp_seq=468 ttl=64 time=390 ms
+no answer yet for icmp_seq=469
+64 bytes from 10.0.0.11: icmp_seq=469 ttl=64 time=243 ms
+64 bytes from 10.0.0.11: icmp_seq=470 ttl=64 time=97.4 ms
+no answer yet for icmp_seq=471
+64 bytes from 10.0.0.11: icmp_seq=471 ttl=64 time=279 ms
+no answer yet for icmp_seq=472
+no answer yet for icmp_seq=473
+64 bytes from 10.0.0.11: icmp_seq=472 ttl=64 time=493 ms
+no answer yet for icmp_seq=474
+no answer yet for icmp_seq=475
+64 bytes from 10.0.0.11: icmp_seq=473 ttl=64 time=701 ms
+no answer yet for icmp_seq=476
+no answer yet for icmp_seq=477
+64 bytes from 10.0.0.11: icmp_seq=474 ttl=64 time=924 ms
+no answer yet for icmp_seq=478
+no answer yet for icmp_seq=479
+no answer yet for icmp_seq=480
+no answer yet for icmp_seq=481
+no answer yet for icmp_seq=482
+no answer yet for icmp_seq=483
+no answer yet for icmp_seq=484
+no answer yet for icmp_seq=485
+no answer yet for icmp_seq=486
+64 bytes from 10.0.0.11: icmp_seq=477 ttl=64 time=3461 ms
+64 bytes from 10.0.0.11: icmp_seq=478 ttl=64 time=3291 ms
+64 bytes from 10.0.0.11: icmp_seq=479 ttl=64 time=3107 ms
+no answer yet for icmp_seq=487
+no answer yet for icmp_seq=488
+no answer yet for icmp_seq=489
+64 bytes from 10.0.0.11: icmp_seq=486 ttl=64 time=2327 ms
+no answer yet for icmp_seq=490
+no answer yet for icmp_seq=491
+no answer yet for icmp_seq=492
+no answer yet for icmp_seq=493
+no answer yet for icmp_seq=494
+64 bytes from 10.0.0.11: icmp_seq=491 ttl=64 time=1288 ms
+no answer yet for icmp_seq=495
+64 bytes from 10.0.0.11: icmp_seq=492 ttl=64 time=1285 ms
+no answer yet for icmp_seq=496
+64 bytes from 10.0.0.11: icmp_seq=493 ttl=64 time=1137 ms
+no answer yet for icmp_seq=497
+64 bytes from 10.0.0.11: icmp_seq=494 ttl=64 time=1367 ms
+no answer yet for icmp_seq=498
+64 bytes from 10.0.0.11: icmp_seq=495 ttl=64 time=1378 ms
+no answer yet for icmp_seq=499
+no answer yet for icmp_seq=500
+64 bytes from 10.0.0.11: icmp_seq=496 ttl=64 time=1690 ms
+64 bytes from 10.0.0.11: icmp_seq=497 ttl=64 time=1483 ms
+64 bytes from 10.0.0.11: icmp_seq=498 ttl=64 time=1018 ms
+no answer yet for icmp_seq=501
+no answer yet for icmp_seq=502
+no answer yet for icmp_seq=503
+64 bytes from 10.0.0.11: icmp_seq=499 ttl=64 time=2080 ms
+no answer yet for icmp_seq=504
+no answer yet for icmp_seq=505
+no answer yet for icmp_seq=506
+no answer yet for icmp_seq=507
+no answer yet for icmp_seq=508
+no answer yet for icmp_seq=509
+no answer yet for icmp_seq=510
+no answer yet for icmp_seq=511
+no answer yet for icmp_seq=512
+no answer yet for icmp_seq=513
+64 bytes from 10.0.0.11: icmp_seq=509 ttl=64 time=2663 ms
+64 bytes from 10.0.0.11: icmp_seq=510 ttl=64 time=1658 ms
+64 bytes from 10.0.0.11: icmp_seq=511 ttl=64 time=649 ms
+64 bytes from 10.0.0.11: icmp_seq=512 ttl=64 time=443 ms
+64 bytes from 10.0.0.11: icmp_seq=513 ttl=64 time=207 ms
+64 bytes from 10.0.0.11: icmp_seq=514 ttl=64 time=31.8 ms
+no answer yet for icmp_seq=515
+64 bytes from 10.0.0.11: icmp_seq=515 ttl=64 time=217 ms
+64 bytes from 10.0.0.11: icmp_seq=516 ttl=64 time=105 ms
+64 bytes from 10.0.0.11: icmp_seq=517 ttl=64 time=104 ms
+64 bytes from 10.0.0.11: icmp_seq=518 ttl=64 time=118 ms
+64 bytes from 10.0.0.11: icmp_seq=519 ttl=64 time=174 ms
+no answer yet for icmp_seq=520
+64 bytes from 10.0.0.11: icmp_seq=520 ttl=64 time=217 ms
+no answer yet for icmp_seq=521
+64 bytes from 10.0.0.11: icmp_seq=521 ttl=64 time=261 ms
+no answer yet for icmp_seq=522
+64 bytes from 10.0.0.11: icmp_seq=522 ttl=64 time=271 ms
+no answer yet for icmp_seq=523
+64 bytes from 10.0.0.11: icmp_seq=523 ttl=64 time=321 ms
+no answer yet for icmp_seq=524
+no answer yet for icmp_seq=525
+64 bytes from 10.0.0.11: icmp_seq=524 ttl=64 time=431 ms
+no answer yet for icmp_seq=526
+64 bytes from 10.0.0.11: icmp_seq=525 ttl=64 time=572 ms
+no answer yet for icmp_seq=527
+no answer yet for icmp_seq=528
+no answer yet for icmp_seq=529
+no answer yet for icmp_seq=530
+no answer yet for icmp_seq=531
+no answer yet for icmp_seq=532
+no answer yet for icmp_seq=533
+no answer yet for icmp_seq=534
+64 bytes from 10.0.0.11: icmp_seq=531 ttl=64 time=2430 ms
+64 bytes from 10.0.0.11: icmp_seq=532 ttl=64 time=2217 ms
+no answer yet for icmp_seq=535
+no answer yet for icmp_seq=536
+no answer yet for icmp_seq=537
+no answer yet for icmp_seq=538
+no answer yet for icmp_seq=539
+no answer yet for icmp_seq=540
+no answer yet for icmp_seq=541
+64 bytes from 10.0.0.11: icmp_seq=537 ttl=64 time=2378 ms
+64 bytes from 10.0.0.11: icmp_seq=539 ttl=64 time=792 ms
+64 bytes from 10.0.0.11: icmp_seq=540 ttl=64 time=588 ms
+64 bytes from 10.0.0.11: icmp_seq=541 ttl=64 time=381 ms
+64 bytes from 10.0.0.11: icmp_seq=542 ttl=64 time=181 ms
+64 bytes from 10.0.0.11: icmp_seq=543 ttl=64 time=23.2 ms
+64 bytes from 10.0.0.11: icmp_seq=544 ttl=64 time=37.2 ms
+64 bytes from 10.0.0.11: icmp_seq=545 ttl=64 time=178 ms
+no answer yet for icmp_seq=546
+no answer yet for icmp_seq=547
+64 bytes from 10.0.0.11: icmp_seq=546 ttl=64 time=1250 ms
+no answer yet for icmp_seq=548
+no answer yet for icmp_seq=549
+no answer yet for icmp_seq=550
+no answer yet for icmp_seq=551
+no answer yet for icmp_seq=552
+no answer yet for icmp_seq=553
+no answer yet for icmp_seq=554
+no answer yet for icmp_seq=555
+no answer yet for icmp_seq=556
+no answer yet for icmp_seq=557
+no answer yet for icmp_seq=558
+no answer yet for icmp_seq=559
+no answer yet for icmp_seq=560
+no answer yet for icmp_seq=561
+no answer yet for icmp_seq=562
+no answer yet for icmp_seq=563
+no answer yet for icmp_seq=564
+no answer yet for icmp_seq=565
+no answer yet for icmp_seq=566
+64 bytes from 10.0.0.11: icmp_seq=558 ttl=64 time=5783 ms
+64 bytes from 10.0.0.11: icmp_seq=561 ttl=64 time=3782 ms
+64 bytes from 10.0.0.11: icmp_seq=562 ttl=64 time=2786 ms
+no answer yet for icmp_seq=567
+no answer yet for icmp_seq=568
+64 bytes from 10.0.0.11: icmp_seq=565 ttl=64 time=1174 ms
+64 bytes from 10.0.0.11: icmp_seq=566 ttl=64 time=937 ms
+64 bytes from 10.0.0.11: icmp_seq=567 ttl=64 time=636 ms
+no answer yet for icmp_seq=569
+64 bytes from 10.0.0.11: icmp_seq=568 ttl=64 time=458 ms
+64 bytes from 10.0.0.11: icmp_seq=569 ttl=64 time=273 ms
+64 bytes from 10.0.0.11: icmp_seq=570 ttl=64 time=114 ms
+64 bytes from 10.0.0.11: icmp_seq=571 ttl=64 time=55.7 ms
+64 bytes from 10.0.0.11: icmp_seq=572 ttl=64 time=54.3 ms
+no answer yet for icmp_seq=573
+no answer yet for icmp_seq=574
+no answer yet for icmp_seq=575
+no answer yet for icmp_seq=576
+no answer yet for icmp_seq=577
+64 bytes from 10.0.0.11: icmp_seq=573 ttl=64 time=3105 ms
+64 bytes from 10.0.0.11: icmp_seq=574 ttl=64 time=1896 ms
+64 bytes from 10.0.0.11: icmp_seq=575 ttl=64 time=1693 ms
+64 bytes from 10.0.0.11: icmp_seq=576 ttl=64 time=1503 ms
+64 bytes from 10.0.0.11: icmp_seq=577 ttl=64 time=1129 ms
+64 bytes from 10.0.0.11: icmp_seq=578 ttl=64 time=139 ms
+64 bytes from 10.0.0.11: icmp_seq=579 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.11: icmp_seq=580 ttl=64 time=43.7 ms
+64 bytes from 10.0.0.11: icmp_seq=581 ttl=64 time=23.9 ms
+64 bytes from 10.0.0.11: icmp_seq=582 ttl=64 time=27.2 ms
+64 bytes from 10.0.0.11: icmp_seq=583 ttl=64 time=26.6 ms
+64 bytes from 10.0.0.11: icmp_seq=584 ttl=64 time=25.5 ms
+64 bytes from 10.0.0.11: icmp_seq=585 ttl=64 time=28.7 ms
+64 bytes from 10.0.0.11: icmp_seq=586 ttl=64 time=133 ms
+no answer yet for icmp_seq=587
+no answer yet for icmp_seq=588
+no answer yet for icmp_seq=589
+no answer yet for icmp_seq=590
+no answer yet for icmp_seq=591
+no answer yet for icmp_seq=592
+no answer yet for icmp_seq=593
+no answer yet for icmp_seq=594
+no answer yet for icmp_seq=595
+no answer yet for icmp_seq=596
+no answer yet for icmp_seq=597
+no answer yet for icmp_seq=598
+no answer yet for icmp_seq=599
+no answer yet for icmp_seq=600
+no answer yet for icmp_seq=601
+64 bytes from 10.0.0.11: icmp_seq=594 ttl=64 time=4875 ms
+64 bytes from 10.0.0.11: icmp_seq=595 ttl=64 time=3872 ms
+64 bytes from 10.0.0.11: icmp_seq=596 ttl=64 time=2995 ms
+64 bytes from 10.0.0.11: icmp_seq=597 ttl=64 time=2686 ms
+64 bytes from 10.0.0.11: icmp_seq=598 ttl=64 time=1952 ms
+no answer yet for icmp_seq=602
+no answer yet for icmp_seq=603
+no answer yet for icmp_seq=604
+no answer yet for icmp_seq=605
+no answer yet for icmp_seq=606
+no answer yet for icmp_seq=607
+no answer yet for icmp_seq=608
+no answer yet for icmp_seq=609
+no answer yet for icmp_seq=610
+no answer yet for icmp_seq=611
+no answer yet for icmp_seq=612
+no answer yet for icmp_seq=613
+no answer yet for icmp_seq=614
+no answer yet for icmp_seq=615
+no answer yet for icmp_seq=616
+no answer yet for icmp_seq=617
+no answer yet for icmp_seq=618
+no answer yet for icmp_seq=619
+64 bytes from 10.0.0.11: icmp_seq=604 ttl=64 time=8539 ms
+no answer yet for icmp_seq=620
+64 bytes from 10.0.0.11: icmp_seq=605 ttl=64 time=8455 ms
+64 bytes from 10.0.0.11: icmp_seq=606 ttl=64 time=8251 ms
+64 bytes from 10.0.0.11: icmp_seq=607 ttl=64 time=8047 ms
+64 bytes from 10.0.0.11: icmp_seq=608 ttl=64 time=7846 ms
+64 bytes from 10.0.0.11: icmp_seq=609 ttl=64 time=7642 ms
+64 bytes from 10.0.0.11: icmp_seq=610 ttl=64 time=7440 ms
+64 bytes from 10.0.0.11: icmp_seq=611 ttl=64 time=7232 ms
+64 bytes from 10.0.0.11: icmp_seq=613 ttl=64 time=6824 ms
+64 bytes from 10.0.0.11: icmp_seq=614 ttl=64 time=5929 ms
+64 bytes from 10.0.0.11: icmp_seq=615 ttl=64 time=3968 ms
+64 bytes from 10.0.0.11: icmp_seq=616 ttl=64 time=1999 ms
+64 bytes from 10.0.0.11: icmp_seq=617 ttl=64 time=1002 ms
+64 bytes from 10.0.0.11: icmp_seq=618 ttl=64 time=797 ms
+no answer yet for icmp_seq=621
+64 bytes from 10.0.0.11: icmp_seq=619 ttl=64 time=638 ms
+64 bytes from 10.0.0.11: icmp_seq=620 ttl=64 time=660 ms
+no answer yet for icmp_seq=622
+64 bytes from 10.0.0.11: icmp_seq=621 ttl=64 time=834 ms
+no answer yet for icmp_seq=623
+64 bytes from 10.0.0.11: icmp_seq=622 ttl=64 time=1755 ms
+no answer yet for icmp_seq=624
+no answer yet for icmp_seq=625
+no answer yet for icmp_seq=626
+64 bytes from 10.0.0.11: icmp_seq=623 ttl=64 time=2082 ms
+64 bytes from 10.0.0.11: icmp_seq=624 ttl=64 time=1709 ms
+64 bytes from 10.0.0.11: icmp_seq=625 ttl=64 time=585 ms
+64 bytes from 10.0.0.11: icmp_seq=626 ttl=64 time=384 ms
+64 bytes from 10.0.0.11: icmp_seq=627 ttl=64 time=180 ms
+64 bytes from 10.0.0.11: icmp_seq=628 ttl=64 time=102 ms
+no answer yet for icmp_seq=629
+no answer yet for icmp_seq=630
+64 bytes from 10.0.0.11: icmp_seq=629 ttl=64 time=904 ms
+no answer yet for icmp_seq=631
+no answer yet for icmp_seq=632
+64 bytes from 10.0.0.11: icmp_seq=630 ttl=64 time=878 ms
+no answer yet for icmp_seq=633
+64 bytes from 10.0.0.11: icmp_seq=631 ttl=64 time=915 ms
+no answer yet for icmp_seq=634
+no answer yet for icmp_seq=635
+no answer yet for icmp_seq=636
+64 bytes from 10.0.0.11: icmp_seq=632 ttl=64 time=1095 ms
+64 bytes from 10.0.0.11: icmp_seq=633 ttl=64 time=942 ms
+no answer yet for icmp_seq=637
+no answer yet for icmp_seq=638
+no answer yet for icmp_seq=639
+no answer yet for icmp_seq=640
+no answer yet for icmp_seq=641
+no answer yet for icmp_seq=642
+no answer yet for icmp_seq=643
+no answer yet for icmp_seq=644
+64 bytes from 10.0.0.11: icmp_seq=640 ttl=64 time=1983 ms
+64 bytes from 10.0.0.11: icmp_seq=641 ttl=64 time=979 ms
+64 bytes from 10.0.0.11: icmp_seq=642 ttl=64 time=764 ms
+64 bytes from 10.0.0.11: icmp_seq=643 ttl=64 time=552 ms
+64 bytes from 10.0.0.11: icmp_seq=644 ttl=64 time=359 ms
+no answer yet for icmp_seq=645
+no answer yet for icmp_seq=646
+no answer yet for icmp_seq=647
+no answer yet for icmp_seq=648
+no answer yet for icmp_seq=649
+no answer yet for icmp_seq=650
+no answer yet for icmp_seq=651
+no answer yet for icmp_seq=652
+no answer yet for icmp_seq=653
+64 bytes from 10.0.0.11: icmp_seq=652 ttl=64 time=580 ms
+64 bytes from 10.0.0.11: icmp_seq=653 ttl=64 time=390 ms
+64 bytes from 10.0.0.11: icmp_seq=654 ttl=64 time=191 ms
+64 bytes from 10.0.0.11: icmp_seq=655 ttl=64 time=31.8 ms
+64 bytes from 10.0.0.11: icmp_seq=656 ttl=64 time=26.1 ms
+64 bytes from 10.0.0.11: icmp_seq=657 ttl=64 time=24.9 ms
+64 bytes from 10.0.0.11: icmp_seq=658 ttl=64 time=27.2 ms
+64 bytes from 10.0.0.11: icmp_seq=659 ttl=64 time=22.7 ms
+64 bytes from 10.0.0.11: icmp_seq=660 ttl=64 time=23.2 ms
+64 bytes from 10.0.0.11: icmp_seq=661 ttl=64 time=22.6 ms
+64 bytes from 10.0.0.11: icmp_seq=662 ttl=64 time=23.1 ms
+64 bytes from 10.0.0.11: icmp_seq=663 ttl=64 time=22.9 ms
+64 bytes from 10.0.0.11: icmp_seq=664 ttl=64 time=22.8 ms
+64 bytes from 10.0.0.11: icmp_seq=665 ttl=64 time=32.1 ms
+64 bytes from 10.0.0.11: icmp_seq=666 ttl=64 time=54.1 ms
+no answer yet for icmp_seq=667
+no answer yet for icmp_seq=668
+no answer yet for icmp_seq=669
+no answer yet for icmp_seq=670
+no answer yet for icmp_seq=671
+no answer yet for icmp_seq=672
+no answer yet for icmp_seq=673
+no answer yet for icmp_seq=674
+no answer yet for icmp_seq=675
+no answer yet for icmp_seq=676
+no answer yet for icmp_seq=677
+no answer yet for icmp_seq=678
+no answer yet for icmp_seq=679
+64 bytes from 10.0.0.11: icmp_seq=672 ttl=64 time=3788 ms
+64 bytes from 10.0.0.11: icmp_seq=673 ttl=64 time=2806 ms
+64 bytes from 10.0.0.11: icmp_seq=674 ttl=64 time=1816 ms
+64 bytes from 10.0.0.11: icmp_seq=675 ttl=64 time=1621 ms
+64 bytes from 10.0.0.11: icmp_seq=676 ttl=64 time=1342 ms
+64 bytes from 10.0.0.11: icmp_seq=677 ttl=64 time=872 ms
+64 bytes from 10.0.0.11: icmp_seq=678 ttl=64 time=676 ms
+no answer yet for icmp_seq=680
+64 bytes from 10.0.0.11: icmp_seq=679 ttl=64 time=510 ms
+64 bytes from 10.0.0.11: icmp_seq=680 ttl=64 time=305 ms
+64 bytes from 10.0.0.11: icmp_seq=681 ttl=64 time=137 ms
+64 bytes from 10.0.0.11: icmp_seq=682 ttl=64 time=28.0 ms
+64 bytes from 10.0.0.11: icmp_seq=683 ttl=64 time=22.4 ms
+64 bytes from 10.0.0.11: icmp_seq=684 ttl=64 time=174 ms
+no answer yet for icmp_seq=685
+64 bytes from 10.0.0.11: icmp_seq=685 ttl=64 time=316 ms
+no answer yet for icmp_seq=686
+no answer yet for icmp_seq=687
+64 bytes from 10.0.0.11: icmp_seq=686 ttl=64 time=474 ms
+no answer yet for icmp_seq=688
+no answer yet for icmp_seq=689
+64 bytes from 10.0.0.11: icmp_seq=687 ttl=64 time=632 ms
+no answer yet for icmp_seq=690
+64 bytes from 10.0.0.11: icmp_seq=688 ttl=64 time=781 ms
+no answer yet for icmp_seq=691
+no answer yet for icmp_seq=692
+64 bytes from 10.0.0.11: icmp_seq=689 ttl=64 time=923 ms
+no answer yet for icmp_seq=693
+no answer yet for icmp_seq=694
+no answer yet for icmp_seq=695
+no answer yet for icmp_seq=696
+no answer yet for icmp_seq=697
+64 bytes from 10.0.0.11: icmp_seq=692 ttl=64 time=2407 ms
+64 bytes from 10.0.0.11: icmp_seq=693 ttl=64 time=2204 ms
+no answer yet for icmp_seq=698
+64 bytes from 10.0.0.11: icmp_seq=696 ttl=64 time=1178 ms
+no answer yet for icmp_seq=699
+64 bytes from 10.0.0.11: icmp_seq=697 ttl=64 time=1120 ms
+64 bytes from 10.0.0.11: icmp_seq=698 ttl=64 time=895 ms
+no answer yet for icmp_seq=700
+no answer yet for icmp_seq=701
+no answer yet for icmp_seq=702
+no answer yet for icmp_seq=703
+no answer yet for icmp_seq=704
+no answer yet for icmp_seq=705
+64 bytes from 10.0.0.11: icmp_seq=699 ttl=64 time=1559 ms
+no answer yet for icmp_seq=706
+64 bytes from 10.0.0.11: icmp_seq=700 ttl=64 time=1551 ms
+no answer yet for icmp_seq=707
+no answer yet for icmp_seq=708
+64 bytes from 10.0.0.11: icmp_seq=703 ttl=64 time=1267 ms
+no answer yet for icmp_seq=709
+no answer yet for icmp_seq=710
+64 bytes from 10.0.0.11: icmp_seq=705 ttl=64 time=1320 ms
+no answer yet for icmp_seq=711
+64 bytes from 10.0.0.11: icmp_seq=706 ttl=64 time=1413 ms
+no answer yet for icmp_seq=712
+no answer yet for icmp_seq=713
+no answer yet for icmp_seq=714
+64 bytes from 10.0.0.11: icmp_seq=707 ttl=64 time=3379 ms
+64 bytes from 10.0.0.11: icmp_seq=708 ttl=64 time=3202 ms
+no answer yet for icmp_seq=715
+64 bytes from 10.0.0.11: icmp_seq=709 ttl=64 time=3996 ms
+64 bytes from 10.0.0.11: icmp_seq=710 ttl=64 time=3835 ms
+no answer yet for icmp_seq=716
+no answer yet for icmp_seq=717
+64 bytes from 10.0.0.11: icmp_seq=711 ttl=64 time=5585 ms
+64 bytes from 10.0.0.11: icmp_seq=713 ttl=64 time=5394 ms
+64 bytes from 10.0.0.11: icmp_seq=714 ttl=64 time=4324 ms
+64 bytes from 10.0.0.11: icmp_seq=715 ttl=64 time=3361 ms
+no answer yet for icmp_seq=718
+64 bytes from 10.0.0.11: icmp_seq=716 ttl=64 time=2568 ms
+no answer yet for icmp_seq=719
+no answer yet for icmp_seq=720
+no answer yet for icmp_seq=721
+no answer yet for icmp_seq=722
+no answer yet for icmp_seq=723
+no answer yet for icmp_seq=724
+64 bytes from 10.0.0.11: icmp_seq=721 ttl=64 time=2198 ms
+64 bytes from 10.0.0.11: icmp_seq=722 ttl=64 time=2018 ms
+64 bytes from 10.0.0.11: icmp_seq=723 ttl=64 time=1818 ms
+64 bytes from 10.0.0.11: icmp_seq=724 ttl=64 time=1234 ms
+no answer yet for icmp_seq=725
+64 bytes from 10.0.0.11: icmp_seq=725 ttl=64 time=242 ms
+64 bytes from 10.0.0.11: icmp_seq=726 ttl=64 time=114 ms
+no answer yet for icmp_seq=727
+no answer yet for icmp_seq=728
+no answer yet for icmp_seq=729
+no answer yet for icmp_seq=730
+no answer yet for icmp_seq=731
+no answer yet for icmp_seq=732
+no answer yet for icmp_seq=733
+no answer yet for icmp_seq=734
+no answer yet for icmp_seq=735
+no answer yet for icmp_seq=736
+no answer yet for icmp_seq=737
+no answer yet for icmp_seq=738
+no answer yet for icmp_seq=739
+64 bytes from 10.0.0.11: icmp_seq=736 ttl=64 time=1520 ms
+64 bytes from 10.0.0.11: icmp_seq=737 ttl=64 time=740 ms
+64 bytes from 10.0.0.11: icmp_seq=738 ttl=64 time=536 ms
+64 bytes from 10.0.0.11: icmp_seq=739 ttl=64 time=340 ms
+64 bytes from 10.0.0.11: icmp_seq=740 ttl=64 time=95.7 ms
+64 bytes from 10.0.0.11: icmp_seq=741 ttl=64 time=35.0 ms
+64 bytes from 10.0.0.11: icmp_seq=742 ttl=64 time=30.3 ms
+64 bytes from 10.0.0.11: icmp_seq=743 ttl=64 time=29.5 ms
+64 bytes from 10.0.0.11: icmp_seq=744 ttl=64 time=27.2 ms
+64 bytes from 10.0.0.11: icmp_seq=745 ttl=64 time=31.0 ms
+64 bytes from 10.0.0.11: icmp_seq=746 ttl=64 time=27.2 ms
+64 bytes from 10.0.0.11: icmp_seq=747 ttl=64 time=26.0 ms
+64 bytes from 10.0.0.11: icmp_seq=748 ttl=64 time=37.5 ms
+no answer yet for icmp_seq=749
+64 bytes from 10.0.0.11: icmp_seq=749 ttl=64 time=677 ms
+no answer yet for icmp_seq=750
+64 bytes from 10.0.0.11: icmp_seq=750 ttl=64 time=631 ms
+no answer yet for icmp_seq=751
+no answer yet for icmp_seq=752
+64 bytes from 10.0.0.11: icmp_seq=752 ttl=64 time=1044 ms
+64 bytes from 10.0.0.11: icmp_seq=751 ttl=64 time=1269 ms
+no answer yet for icmp_seq=753
+no answer yet for icmp_seq=754
+64 bytes from 10.0.0.11: icmp_seq=753 ttl=64 time=1190 ms
+no answer yet for icmp_seq=755
+no answer yet for icmp_seq=756
+no answer yet for icmp_seq=757
+no answer yet for icmp_seq=758
+64 bytes from 10.0.0.11: icmp_seq=754 ttl=64 time=2213 ms
+no answer yet for icmp_seq=759
+no answer yet for icmp_seq=760
+64 bytes from 10.0.0.11: icmp_seq=756 ttl=64 time=2109 ms
+no answer yet for icmp_seq=761
+no answer yet for icmp_seq=762
+no answer yet for icmp_seq=763
+no answer yet for icmp_seq=764
+no answer yet for icmp_seq=765
+no answer yet for icmp_seq=766
+no answer yet for icmp_seq=767
+no answer yet for icmp_seq=768
+no answer yet for icmp_seq=769
+no answer yet for icmp_seq=770

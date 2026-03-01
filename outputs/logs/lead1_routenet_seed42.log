@@ -1,0 +1,25 @@
+[lead1-sparse][ep 001] train_loss=0.64915 val_busy_RMSE=851.046
+[lead1-sparse][ep 002] train_loss=0.46119 val_busy_RMSE=681.316
+[lead1-sparse][ep 003] train_loss=0.35065 val_busy_RMSE=245.146
+[lead1-sparse][ep 004] train_loss=0.28234 val_busy_RMSE=307.093
+[lead1-sparse][ep 005] train_loss=0.20759 val_busy_RMSE=29.938
+[lead1-sparse][ep 006] train_loss=0.16309 val_busy_RMSE=122.568
+[lead1-sparse][ep 007] train_loss=0.13851 val_busy_RMSE=159.480
+[lead1-sparse][ep 008] train_loss=0.17089 val_busy_RMSE=173.552
+[lead1-sparse][ep 009] train_loss=0.15017 val_busy_RMSE=120.187
+[lead1-sparse][ep 010] train_loss=0.12798 val_busy_RMSE=188.823
+[lead1-sparse][ep 011] train_loss=0.09411 val_busy_RMSE=12.507
+[lead1-sparse][ep 012] train_loss=0.10100 val_busy_RMSE=82.411
+[lead1-sparse][ep 013] train_loss=0.12329 val_busy_RMSE=86.978
+[lead1-sparse][ep 014] train_loss=0.09326 val_busy_RMSE=129.067
+[lead1-sparse][ep 015] train_loss=0.08442 val_busy_RMSE=97.594
+[lead1-sparse][ep 016] train_loss=0.10184 val_busy_RMSE=46.448
+[lead1-sparse][ep 017] train_loss=0.10021 val_busy_RMSE=71.422
+[lead1-sparse][ep 018] train_loss=0.11446 val_busy_RMSE=131.459
+[lead1-sparse][ep 019] train_loss=0.09154 val_busy_RMSE=82.440
+[lead1-sparse][ep 020] train_loss=0.08049 val_busy_RMSE=25.177
+[lead1-sparse][ep 021] train_loss=0.08987 val_busy_RMSE=41.413
+[lead1-sparse][ep 022] train_loss=0.09487 val_busy_RMSE=155.156
+[lead1-sparse][ep 023] train_loss=0.13063 val_busy_RMSE=187.395
+Early stop at epoch 23.
+TEST lead-1 micro RMSE: 398.802 | saved outputs/models/lead1_routenet_seed42.pt

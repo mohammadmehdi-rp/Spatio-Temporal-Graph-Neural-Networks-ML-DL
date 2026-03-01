@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Apples-to-apples classical baselines for lead-1 forecasting (same splits, raw packet scale).}
+\label{tab:apples-lead1}
+\begin{tabular}{lrrrr}
+\toprule
+Method & Micro RMSE & $\pm$ & Macro RMSE & $\pm$ \\
+\midrule
+Naive lead-1 (y[t]) & 39.032 & 0.000 & 7.967 & 0.000 \\
+Ridge lead-1 (val-tuned, alpha=0.1) & 38.308 & 0.000 & 8.039 & 0.000 \\
+AR(p) ridge (p=5, alpha=0.1) & 38.861 & 0.000 & 8.044 & 0.000 \\
+ARIMA(p,1,0) ridge (p=5, alpha=100.0) & 40.065 & 0.000 & 8.230 & 0.000 \\
+Kalman RW baseline & 71.407 & 0.000 & 14.576 & 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

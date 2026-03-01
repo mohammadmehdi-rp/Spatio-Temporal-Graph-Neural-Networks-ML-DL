@@ -1,0 +1,19 @@
+[lead1-sparse][ep 001] train_loss=0.64283 val_busy_RMSE=722.076
+[lead1-sparse][ep 002] train_loss=0.43055 val_busy_RMSE=553.006
+[lead1-sparse][ep 003] train_loss=0.35446 val_busy_RMSE=442.362
+[lead1-sparse][ep 004] train_loss=0.32217 val_busy_RMSE=260.719
+[lead1-sparse][ep 005] train_loss=0.22854 val_busy_RMSE=13.689
+[lead1-sparse][ep 006] train_loss=0.22815 val_busy_RMSE=142.468
+[lead1-sparse][ep 007] train_loss=0.15814 val_busy_RMSE=68.730
+[lead1-sparse][ep 008] train_loss=0.13959 val_busy_RMSE=75.651
+[lead1-sparse][ep 009] train_loss=0.13203 val_busy_RMSE=130.271
+[lead1-sparse][ep 010] train_loss=0.13187 val_busy_RMSE=151.395
+[lead1-sparse][ep 011] train_loss=0.12568 val_busy_RMSE=92.354
+[lead1-sparse][ep 012] train_loss=0.10446 val_busy_RMSE=80.056
+[lead1-sparse][ep 013] train_loss=0.11476 val_busy_RMSE=166.024
+[lead1-sparse][ep 014] train_loss=0.12175 val_busy_RMSE=179.676
+[lead1-sparse][ep 015] train_loss=0.12208 val_busy_RMSE=55.388
+[lead1-sparse][ep 016] train_loss=0.09377 val_busy_RMSE=156.041
+[lead1-sparse][ep 017] train_loss=0.07897 val_busy_RMSE=65.977
+Early stop at epoch 17.
+TEST lead-1 micro RMSE: 148.951 | saved outputs/models/lead1_sage_no_next_seed123.pt

@@ -1,0 +1,40 @@
+\section{Cross-trace generalization}
+\label{sec:cross-trace}
+
+\subsection{Motivation}
+In operational networks, traffic regimes can shift across captures, days, or configurations. To estimate robustness to distribution shift, we perform cross-trace evaluation by training on one trace segment and testing on another.
+
+\subsection{Protocol}
+The timeline is split into two contiguous segments, denoted Trace A and Trace B. We evaluate both directions:
+A$\to$B and B$\to$A. For each direction, the model is trained on the source segment (with an internal train/validation split) and evaluated exclusively on the target segment. Input feature normalization is recomputed using only the training portion of the source trace to avoid leakage. Results are reported as mean $\pm$ std over 3 seeds.
+
+\subsection{Results}
+\begin{table}[t]
+\centering
+\small
+\caption{Cross-trace generalization for nowcasting (GraphSAGE, $k=10$). Values are mean $\pm$ std over 3 seeds.}
+\label{tab:cross-trace}
+\begin{tabular}{lcc}
+\toprule
+Train $\to$ Test & Test micro RMSE & Test macro RMSE \\
+\midrule
+A$\to$B & 207.889 $\pm$ 115.879 & 92.883 $\pm$ 49.687 \\
+B$\to$A & \textbf{62.317} $\pm$ 5.939 & \textbf{57.845} $\pm$ 7.771 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.48\textwidth]{outputs/figures/cross_trace_micro.pdf}
+\hfill
+\includegraphics[width=0.48\textwidth]{outputs/figures/cross_trace_macro.pdf}
+\caption{Cross-trace generalization results. Error bars show variability across 3 seeds.}
+\label{fig:cross-trace}
+\end{figure}
+
+\subsection{Discussion}
+The experiment reveals strong asymmetry between directions. Training on Trace B generalizes well to Trace A with low RMSE and low variance, whereas A$\to$B exhibits much larger variance and occasional failure. One seed produces a substantially worse result, which inflates the A$\to$B mean and standard deviation. This indicates that cross-trace generalization is sensitive to the traffic regime present in the training segment and highlights the importance of evaluating distribution shift.
+
+\subsection{Takeaway}
+Cross-trace evaluation suggests that generalization is not guaranteed across captures. When possible, training should include diverse regimes, or models should be validated on multiple traces to ensure robustness.

@@ -1,0 +1,2 @@
+method,global_rmse,idle_rmse,busy_rmse,idle_fp,idle_mean,n_idle,n_busy
+"ST-GNN(nowcast ensemble, idlefix+softplus)",2.0097192733745404,0.6958550493608554,7.213057272507708,0.00030864197530864197,0.08083456754684448,3240,240

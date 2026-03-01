@@ -1,0 +1,5 @@
+mode,target,rmse_global,rmse_nonSensor,queue_global_rmse,queue_idle_rmse,queue_busy_rmse,queue_idle_fp,queue_idle_mean,thr_global_rmse,thr_idle_rmse,thr_busy_rmse,thr_idle_fp,thr_idle_mean,delay_global_rmse,delay_idle_rmse,delay_busy_rmse,delay_idle_fp,delay_idle_mean
+lead1,queue_pkts,10.16669378995206,0.0,10.16669378995206,1.5481544318099243,39.26654169011434,0.0006949270326615705,0.06077545881271362,,,,,,,,,,
+lead1,throughput_Mbps,1.280432928182828,0.001942963200728629,,,,,,1.280432928182828,0.003716600892375366,2.4547589454322587,0.0,0.0,,,,,
+lead1,utilization,0.24554047669851237,0.0010366099747786224,,,,,,,,,,,,,,,
+lead1,qdelay_ms,334.068995641927,334.068995641927,,,,,,,,,,,334.068995641927,0.5112951436009457,360.83569564778304,0.0,0.0

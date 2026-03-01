@@ -1,0 +1,13 @@
+[INFO] Forcing bottleneck TBF on s1-eth1 (may override netem delay on that iface)
+[INFO] tc -s qdisc show dev s1-eth1:
+qdisc tbf 8003: root refcnt 2 rate 2Mbit burst 4Kb lat 400.0ms 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+[INFO] Also forcing TBF on s2-eth1 (recommended for dumbbell)
+[INFO] tc -s qdisc show dev s2-eth1:
+qdisc tbf 8004: root refcnt 2 rate 2Mbit burst 4Kb lat 400.0ms 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+[OK] Dumbbell dataset ready:
+  runs/dumbbell_seed1/dataset.npz

@@ -1,0 +1,45 @@
+\section{Calibration for nowcast}
+\label{sec:calibration-nowcast}
+
+\subsection{Motivation}
+A common failure mode in traffic/backlog regression is \emph{idle false positives}: predicting non-negligible backlog when a link is effectively idle. This is undesirable in practical settings (e.g., triggering alarms or resource decisions). We therefore evaluate lightweight post-hoc calibration of nowcast predictions, focusing on reducing false positives in idle states.
+
+\subsection{Setup}
+Calibration is fitted on the validation split and evaluated on the test split. We define an \textbf{idle/busy split} using the ground-truth backlog:
+\[
+\text{idle if } y < 50\ \text{pkts}, \qquad \text{busy if } y \ge 50\ \text{pkts}.
+\]
+We report global RMSE, RMSE on idle and busy subsets, and the \textbf{idle false-positive rate} (fraction of idle points where the prediction exceeds 50 pkts).
+
+\subsection{Methods}
+Let $\hat{y}$ denote the raw prediction.
+
+\paragraph{SCALE.} A global rescaling $\hat{y}_{\mathrm{scale}} = a\,\hat{y}$ with $a$ fitted on validation data.
+
+\paragraph{SOFT+SCALE.} A smooth thresholding (softplus) before rescaling:
+\[
+\hat{y}_{\mathrm{soft}} = a \cdot \Big(s \cdot \mathrm{softplus}\Big(\frac{\hat{y}-\tau}{s}\Big)\Big),
+\]
+where $\tau$ is a learned threshold and $s$ controls smoothness.
+
+\subsection{Results}
+Table~\ref{tab:calib-nowcast} summarizes the test results. The raw model exhibits strong idle overprediction: mean idle prediction is 97.963 pkts and the idle false-positive rate is 0.266. SCALE reduces idle false positives but severely degrades the busy regime (busy RMSE becomes very large), indicating that a single global rescaling over-corrects high-load samples. In contrast, SOFT+SCALE yields the best overall trade-off for the target objective (idle suppression), reducing idle FP rate to 0.077 and substantially reducing global RMSE.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Nowcast calibration on the test set (busy threshold: 50 pkts). Lower RMSE is better; lower idle FP rate indicates fewer idle false positives.}
+\label{tab:calib-nowcast}
+\begin{tabular}{lccccc}
+\toprule
+Method & Global RMSE & Idle RMSE & Busy RMSE & Idle FP rate & Idle mean pred \\
+\midrule
+RAW         & 214.263 & 216.786 & \textbf{36.402}  & 0.266 & 97.963 \\
+SCALE       & 125.581 & 73.400  & 664.434 & 0.116 & 33.168 \\
+SOFT+SCALE  & \textbf{52.270}  & \textbf{47.546}  & 148.539 & \textbf{0.077} & \textbf{13.580} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Takeaway}
+Post-hoc calibration is highly effective at reducing idle false positives. However, a single global calibration can distort the busy regime. In practice, SOFT+SCALE is most appropriate when conservative idle detection and reduced spurious backlog are priorities; if fidelity on heavy-load samples is critical, a regime-specific calibration can be considered.

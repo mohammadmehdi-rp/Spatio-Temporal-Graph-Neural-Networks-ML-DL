@@ -1,0 +1,1 @@
+encoder=routenet device=cpu steps=21  ms/step=0.601

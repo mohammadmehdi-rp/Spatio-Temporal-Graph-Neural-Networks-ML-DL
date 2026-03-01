@@ -1,0 +1,12 @@
+label,task,metric,value
+Naive persistence (y_t),nowcast,micro_RMSE,38.09149907246106
+Naive persistence (y_t),nowcast,macro_RMSE,7.775394688769025
+Moving average (window=5),nowcast,micro_RMSE,63.56630584060387
+Moving average (window=5),nowcast,macro_RMSE,12.975417845264799
+Ridge regression,nowcast,micro_RMSE,0.002302988976697776
+Ridge regression,nowcast,macro_RMSE,0.0020659157676601947
+Random Forest,nowcast,micro_RMSE,7.346318367154209
+Random Forest,nowcast,macro_RMSE,1.4995609572969917
+AR(p) baseline,lead1,micro_RMSE,38.86087171110349
+"ARIMA(p,1,0) baseline",lead1,micro_RMSE,40.065042129669784
+Kalman filter baseline,lead1,micro_RMSE,71.40672811561942
